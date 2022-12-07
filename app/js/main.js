@@ -155,7 +155,7 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   let headerPopupList = document.querySelectorAll(".header__bottom-link-item");
-  if (headerPopupList.length === 0) {
+  if (headerPopupList.length === 0 && headerPopupList) {
     headerPopup.textContent = "Пусто";
     headerPopup.style.color = "#ababab";
     headerPopup.style.justifyContent = "center";

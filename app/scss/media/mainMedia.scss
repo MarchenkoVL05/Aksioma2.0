@@ -121,6 +121,9 @@
     }
     &__title {
       font-size: 35px;
+      span {
+        font-size: 35px;
+      }
     }
     &__subtitle {
       font-size: 18px;
@@ -217,6 +220,9 @@
     }
     &__title {
       font-size: 28px;
+      span {
+        font-size: 28px;
+      }
     }
   }
 
@@ -274,6 +280,9 @@
   .request {
     &__title {
       font-size: 20px;
+      span {
+        font-size: 20px;
+      }
     }
     &__subtitle {
       font-size: 16px;
