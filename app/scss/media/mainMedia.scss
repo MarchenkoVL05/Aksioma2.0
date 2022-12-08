@@ -80,7 +80,7 @@
       font-size: 16px;
     }
     &__bottom-nav {
-      gap: 22px;
+      gap: 10px;
     }
     &__bottom-link-menu {
       width: 150px;
@@ -354,5 +354,9 @@
     &__copyright-inner {
       font-size: 14px;
     }
+  }
+
+  .stocks {
+    display: none;
   }
 }

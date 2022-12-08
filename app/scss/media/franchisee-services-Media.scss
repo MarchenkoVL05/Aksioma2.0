@@ -1,0 +1,154 @@
+@media (max-width: 1280px) {
+  .consultation {
+    &__contacts-items {
+      gap: 25px;
+    }
+    &__contacts-info-title {
+      font-size: 28px;
+    }
+    &__contacts-descr {
+      font-size: 18px;
+    }
+    &__suggest {
+      margin: 25px auto 0;
+      padding: 0 15px;
+      font-size: 22px;
+      span {
+        font-size: 22px;
+      }
+    }
+    &__contacts-inner {
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+    }
+    &__contacts {
+      margin: 30px auto 0;
+    }
+  }
+  .fr-services {
+    &__inner {
+      gap: 25px;
+    }
+  }
+  .fr-services-info {
+    margin: 50px auto 0;
+    &__title {
+      font-size: 24px;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .consultation {
+    &__items {
+      flex-wrap: wrap;
+      gap: 45px;
+    }
+    &__title {
+      font-size: 36px;
+      line-height: 39px;
+    }
+    &__descr {
+      font-size: 15px;
+      line-height: 21px;
+    }
+    &__contacts-item {
+      padding: 10px;
+      border-radius: 15px;
+    }
+    &__contacts-item-img {
+      max-height: 50px;
+    }
+  }
+  .fr-services-info {
+    margin: 30px auto 0;
+    &__title {
+      font-size: 20px;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 25px;
+      span {
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+  }
+  .fr-services {
+    &__item {
+      width: 280px;
+    }
+    &__item-title {
+      font-size: 18px;
+    }
+    &__item-descr {
+      font-size: 16px;
+    }
+    &__item-more {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .consultation {
+    &__contacts-items {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__suggest {
+      font-size: 18px;
+      span {
+        font-size: 18px;
+      }
+    }
+    &__contacts-info-title {
+      text-align: center;
+    }
+    &__contacts-descr {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 522px) {
+  .consultation {
+    padding: 36px 15px 30px;
+    &__title {
+      margin-top: 8px;
+      font-size: 28px;
+      line-height: 32px;
+    }
+    &__descr {
+      font-size: 15px;
+      line-height: 19px;
+    }
+    &__items {
+      margin-top: 30px;
+    }
+    &__item-descr {
+      font-size: 18px;
+    }
+    &__contacts-info-title {
+      font-size: 24px;
+      span {
+        font-size: 24px;
+      }
+    }
+    &__contacts-descr {
+      font-size: 16px;
+    }
+  }
+  .fr-services-info {
+    &__title {
+      font-size: 18px;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}
