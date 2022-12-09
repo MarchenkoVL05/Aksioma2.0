@@ -48,15 +48,62 @@
     font-size: 19px;
     color: #ffff;
     border-radius: 5px;
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px #223c5033;
     background: linear-gradient(173deg, #dd5b5b, #cc1c1cea);
   }
+}
 
-  &__tariff-title {
+.its-tariff {
+  max-width: 1400px;
+  margin: 0 auto;
+  &__title {
     margin-top: 50px;
     font-family: "Roboto Condensed";
     font-weight: 600;
     font-size: 32px;
-    text-align: center;
+  }
+  &__items {
+    margin-top: 30px;
+  }
+  &__items-wrapper {
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  &__item {
+    width: 360px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 3px #223c5033;
+    &:hover .its-tariff__item-title {
+      color: #cbac33;
+    }
+  }
+  &__item-title {
+    font-family: "Exo 2";
+    font-size: 26px;
+    font-weight: 600;
+    color: #002525;
+    transition: 0.2s all;
+  }
+  &__item-descr {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #646464;
+  }
+  &__devide {
+    font-family: "Exo 2";
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px;
+    background: rgb(255, 214, 87);
+    border-radius: 5px;
+    background: linear-gradient(86deg, rgba(255, 214, 87, 1) 0%, rgba(255, 225, 190, 1) 100%);
+    color: #000000c8;
+    box-shadow: 4px 4px 8px 3px #354b5b33;
+    &:not(:first-child) {
+      margin-top: 60px;
+    }
   }
 }

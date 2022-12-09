@@ -1,6 +1,7 @@
 // font-family: 'Inter';
 // font-family: 'Montserrat';
 // font-family: 'Roboto Condensed';
+// font-family: 'Exo 2',
 * {
   box-sizing: border-box;
   font-family: "Montserrat";
@@ -260,7 +261,7 @@ a {
   &-link-menu {
     display: none;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
     width: 240px;
     padding: 30px;
     position: absolute;
@@ -366,7 +367,7 @@ a {
     right: 20px;
     cursor: pointer;
     img {
-      height: 30px;
+      height: 23px;
     }
   }
   &__icon {
@@ -551,6 +552,7 @@ a {
     backface-visibility: hidden;
   }
   &__item-link {
+    font-family: "Exo 2";
     font-size: 24px;
     font-weight: 600;
     &--bold {
@@ -1113,7 +1115,10 @@ a {
 @import "./franchisee-about.scss";
 @import "./franchisee-services.scss";
 @import "./its.scss";
+@import "./its-tariff.scss";
 // Адаптив
 @import "./media/mainMedia.scss";
 @import "./media/franchisee-about-Media.scss";
 @import "./media/franchisee-services-Media.scss";
+@import "./media/its-Media.scss";
+@import "./media/its-tariff-Media.scss";

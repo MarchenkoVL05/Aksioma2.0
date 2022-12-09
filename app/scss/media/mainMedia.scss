@@ -237,6 +237,9 @@
 }
 
 @media (max-width: 576px) {
+  .breadcrumbs {
+    display: none;
+  }
   .services {
     &__subtitle {
       font-size: 16px;

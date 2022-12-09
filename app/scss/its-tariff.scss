@@ -1,0 +1,140 @@
+.its-t {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  &__title {
+    margin-top: 50px;
+    font-size: 36px;
+    font-family: "Exo 2";
+    font-weight: 800;
+    color: #2f2f2f;
+  }
+  &__descr {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 15px;
+    a {
+      font-size: 22px;
+      color: #0a82e4;
+    }
+  }
+}
+
+.its-t-price {
+  margin-top: 50px;
+  &__title {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 32px;
+  }
+  &__wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    border: 1px solid #f2f2f2;
+    &--col4 {
+      grid-template-columns: repeat(4, auto);
+    }
+    &--col5 {
+      grid-template-columns: repeat(5, auto);
+    }
+    &--col3 {
+      grid-template-columns: repeat(3, auto);
+    }
+  }
+  &__item {
+    padding: 15px 20px;
+    border: 1px solid #f2f2f2;
+    font-size: 20px;
+    font-family: "Exo 2";
+    font-weight: 500;
+    white-space: nowrap;
+    &--grey {
+      background-color: rgb(228, 228, 228);
+    }
+    &--grey2 {
+      background-color: rgb(244, 244, 244);
+    }
+  }
+  &__descr {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 19px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
+    background: linear-gradient(173deg, #dd5b5b, #cc1c1cea);
+  }
+  &__features {
+    margin-top: 50px;
+    p {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 30px;
+    }
+    ul {
+      margin-top: 20px;
+      padding-left: 20px;
+      li {
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+.its-t-services {
+  margin-top: 40px;
+  &__title {
+    font-family: "Exo 2";
+    font-weight: 500;
+    font-size: 32px;
+  }
+  &__item-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  &__item {
+    width: 650px;
+    min-height: 80px;
+    padding: 10px 15px;
+    display: flex;
+    gap: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 3px rgba(34, 60, 80, 0.2);
+    transition: 0.3s all;
+    &:hover {
+      box-shadow: 2px 2px 8px 3px rgba(173, 185, 195, 0.2);
+    }
+  }
+  &__item-img {
+    max-height: 50px;
+  }
+  &__item-content {
+    display: flex;
+    flex-direction: column;
+  }
+  &__item-title {
+    font-family: "Exo 2";
+    font-size: 26px;
+    font-weight: 600;
+    color: #292929;
+  }
+  &__item-descr {
+    font-size: 18px;
+    color: #656565;
+    margin-top: 8px;
+  }
+}

@@ -186,6 +186,7 @@
   max-width: 1400px;
   padding: 0 15px;
   &__title {
+    font-family: "Exo 2";
     font-size: 24px;
     font-weight: 600;
     color: #24272ad6;
@@ -193,8 +194,6 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
   }
   &__text {
     font-size: 20px;
