@@ -1,0 +1,15 @@
+@media (max-width: 1415px) {
+  .fr-its-services {
+    &__inner {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .fr-its-services {
+    &__item {
+      width: 100%;
+    }
+  }
+}

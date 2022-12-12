@@ -579,7 +579,7 @@ a {
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    transition-delay: 0.3s;
+    transition-delay: 0.4s;
   }
   &__item-title {
     font-family: "Montserrat";
@@ -766,11 +766,7 @@ a {
     align-items: center;
   }
   &__item-img {
-    height: 80px;
-    padding: 10px;
-    background-color: rgb(255, 242, 242);
-    border-radius: 100%;
-    border: 3px solid rgb(62, 62, 62);
+    max-height: 80px;
     box-shadow: 4px 4px 11px 0px rgb(32 33 33 / 20%);
   }
   &__item-title {
@@ -1116,9 +1112,15 @@ a {
 @import "./franchisee-services.scss";
 @import "./its.scss";
 @import "./its-tariff.scss";
+@import "./fr-its-services.scss";
+@import "./its-service.scss";
+@import "./franchisee-subscription-service.scss";
 // Адаптив
 @import "./media/mainMedia.scss";
 @import "./media/franchisee-about-Media.scss";
 @import "./media/franchisee-services-Media.scss";
 @import "./media/its-Media.scss";
 @import "./media/its-tariff-Media.scss";
+@import "./media/fr-its-services-Media.scss";
+@import "./media/its-service-Media.scss";
+@import "./media/franchisee-subscription-Media.scss";

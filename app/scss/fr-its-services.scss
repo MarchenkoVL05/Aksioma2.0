@@ -1,0 +1,39 @@
+.fr-its-services {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  &__inner {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  &__item {
+    padding: 10px 15px;
+    width: 323px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #f6f6f6;
+    box-shadow: 4px 4px 8px 0px #223c5033;
+    transition: 0.5s all;
+    &:hover {
+      box-shadow: 1px 1px 8px 0px #939ca333;
+    }
+  }
+  &__item-title {
+    margin-top: 15px;
+    font-family: "Exo 2";
+    font-size: 24px;
+    font-weight: 600;
+  }
+  &__item-img {
+    max-height: 50px;
+  }
+  &__item-descr {
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(75, 75, 75);
+  }
+}

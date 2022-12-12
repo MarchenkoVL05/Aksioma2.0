@@ -1,0 +1,67 @@
+.its-service {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  &__inner {
+    margin-top: 50px;
+  }
+  &__title {
+    font-family: "Exo 2";
+    font-size: 32px;
+    font-weight: 700;
+    color: #2a2a2f;
+  }
+  &__text {
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 30px;
+    color: #2a2a2f;
+    &--big {
+      font-family: "Exo 2";
+      font-size: 26px;
+      font-weight: 600;
+    }
+  }
+  &__list {
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  &__list-item {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #2a2a2f;
+    line-height: 30px;
+  }
+  &__grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+  }
+  &__grid-item {
+    white-space: nowrap;
+    padding: 10px 15px;
+    border: 1px solid #f7f7f7;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2a2a2f;
+    &--grey {
+      background-color: #eeeeee;
+    }
+    &--grey1 {
+      background-color: #f4f4f4;
+    }
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 130px;
+    height: 45px;
+    font-size: 19px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
+    background: linear-gradient(173deg, #dd5b5b, #cc1c1cea);
+  }
+}

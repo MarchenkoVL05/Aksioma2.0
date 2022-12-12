@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Шрифты -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;500;600;700;800;900&family=Inter:wght@100;300;400;500;800;900&family=Montserrat:wght@100;300;400;500;600;700;900&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>1С-Отчётность</title>
+</head>
+
+<body class="main-body">
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-inner">
+                <a class="header__top-link" href="#"><img src="./images/cart.png" alt="Корзина"></a>
+                <a class="header__top-link header__top-link--profile" href="#">Владимир Марченко<img
+                        src="./images/user.png" alt=""></a>
+                <div class="header__top-panel">
+                    <img src="./images/user.png" alt="">
+                    <a href="#">Перейти в профиль</a>
+                    <button class="header__top-panel-btn">Выйти</button>
+                </div>
+            </div>
+        </div>
+        <div class="header__inner">
+            <div class="header__info">
+                <a href="./index.html"><img class="logo" src="./images/logo.png" alt=""></a>
+                <nav class="header__menu">
+                    <a class="header__menu-item" href="#">О компании</a>
+                    <a class="header__menu-item" href="#">Вакансии</a>
+                    <a class="header__menu-item" href="#">Программы</a>
+                    <a class="header__menu-item" href="#">Контакты</a>
+                    <a class="header__menu-item" href="#">Клиентам</a>
+                </nav>
+            </div>
+            <div class="header__contacts">
+                <div class="header__contacts-item">
+                    <a href="#">
+                        <img src="./images/Phone.png" alt="">+7 (3537) 30-70-90
+                    </a>
+                </div>
+                <div class="header__contacts-item">
+                    <a href="#">
+                        <img src="./images/map.png" alt=""> Орск, ул.Ленинского Комсомола, 2А
+                    </a>
+                </div>
+                <div class="header__contacts-item">
+                    <a href="#">
+                        <img src="./images/sms.png" alt=""> 1с@aksioma.pro
+                    </a>
+                </div>
+            </div>
+            <div class="burger">
+                <img class="burger__icon" src="./images/menu.png" alt="">
+                <div class="burger__menu">
+                    <div class="burger__logo">
+                        <img class="logo" src="./images/logo.png" alt="">
+                    </div>
+                    <div class="burger__close"><img src="./images/close.png" alt=""></div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Основное меню</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О компании</a>
+                            <a class="burger__menu-item" href="#">Вакансии</a>
+                            <a class="burger__menu-item" href="#">Программы</a>
+                            <a class="burger__menu-item" href="#">Контакты</a>
+                            <a class="burger__menu-item" href="#">Клиентам</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Сис.администрирование</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О направлении</a>
+                            <a class="burger__menu-item" href="#">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                            <a class="burger__menu-item" href="#">Клиентам</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">1с франчайзи</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./franchisee-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="#">Продукты</a>
+                            <a class="burger__menu-item" href="./franchisee-services.html">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">GPS мониторинг</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О направлении</a>
+                            <a class="burger__menu-item" href="#">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Разработка сайтов</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О направлении</a>
+                            <a class="burger__menu-item" href="#">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Учебный центр</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О направлении</a>
+                            <a class="burger__menu-item" href="#">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Битрикс 24</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О направлении</a>
+                            <a class="burger__menu-item" href="#">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Видеонаблюдение</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О направлении</a>
+                            <a class="burger__menu-item" href="#">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__profile">
+                        <div class="burger__profile-inner">
+                            <div class="burger__profile-img">
+                                <img src="./images/user.png" alt="">
+                            </div>
+                            <div class="burger__profile-name"><a href="#">Владимир Марченко</a></div>
+                        </div>
+                        <div class="burger__logOut">
+                            <a href="#">
+                                <div class="burger__logOut-text">Выйти</div>
+                                <img class="burger__logOut-img" src="./images/logout.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </header>
+    <div class="header__bottom">
+        <nav class="header__bottom-nav">
+            <div class="link-container">
+                <div class="header__bottom-link">Сис.администрирование</div>
+                <div class="header__bottom-link-menu">
+                    <a href="#">О направлении</a>
+                    <a href="#">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">1С Франчайзи</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./franchisee-about.html">О направлении</a>
+                    <a href="#">Продукты</a>
+                    <a href="./franchisee-services.html">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">GPS Мониторинг</div>
+                <div class="header__bottom-link-menu">
+                    <a href="#">О направлении</a>
+                    <a href="#">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Разработка сайтов</div>
+                <div class="header__bottom-link-menu">
+                    <a href="#">О направлении</a>
+                    <a href="#">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Учебный центр</div>
+                <div class="header__bottom-link-menu">
+                    <a href="#">О направлении</a>
+                    <a href="#">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Битрикс24</div>
+                <div class="header__bottom-link-menu">
+                    <a href="#">О направлении</a>
+                    <a href="#">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Видеонаблюдение</div>
+                <div class="header__bottom-link-menu">
+                    <a href="#">О направлении</a>
+                    <a href="#">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link-btn-wrapper">
+                    <button class="header__bottom-link-btn"><span>&#x25CF;&#x25CF;&#x25CF;</span> Ещё</button>
+                    <div class="header__bottom-link-popup">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main class="content">
+        <div class="its-service">
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__list-item"><a href="./index.html">Главная</a></li>
+                    <li class="breadcrumbs__list-item"><a href="./franchisee-about.html">1С Франчайзи</a></li>
+                    <li class="breadcrumbs__list-item"><a href="./franchisee-its-services.html">Сервисы</a></li>
+                    <li class="breadcrumbs__list-item"><a href="#">1С Отчётность</a></li>
+                </ul>
+            </div>
+            <div class="its-service__inner">
+                <div class="its-service__title">Сдача регламентированной отчетности из программ 1С</div>
+                <div class="its-service__text">Подготовка и сдача регламентированной отчетности прямо из программ 1С, а
+                    также поддержка других видов электронного документооборота с контролирующими органами.</div>
+                <div class="its-service__text its-service__text--big">Возможности: </div>
+                <ul class="its-service__list">
+                    <li class="its-service__list-item">Отправляйте отчетности в ФНС, ПФР, ФСС, Росстат,
+                        Росалкогольрегулирование и Росприроднадзор и ФТС;</li>
+                    <li class="its-service__list-item">Отвечайте на запросы и требования ФНС из программы 1С</li>
+                    <li class="its-service__list-item">Формируйте выписки из ЕГРЮЛ/ЕГРИП</li>
+                    <li class="its-service__list-item">Подключайтесь с комфортом</li>
+                    <li class="its-service__list-item">Платите меньше — получайте больше</li>
+                    <li class="its-service__list-item">Сдавайте отчетность быстро, удобно и без ошибок</li>
+                </ul>
+                <div class="its-service__text">Подключение к сервису происходит непосредственно на рабочем месте
+                    пользователя, без визита в офис оператора.</div>
+                <div class="its-service__text">Единая стоимость годового обслуживания включает все возможности сервиса.
+                    В том числе можно без дополнительной оплаты подключать несколько инспекций ФНС для сдачи отчётности
+                    от обособленных подразделений одного юридического лица.</div>
+                <div class="its-service__text its-service__text--big">Цены</div>
+                <div class="its-service__grid">
+                    <div class="its-service__grid-item its-service__grid-item--grey">-</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey">Зона «3900»</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey">Зона «4900»</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey">Зона «5900»</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey">Зона «6900»</div>
+                    <div class="its-service__grid-item">Универсальный тариф для ЮЛ на 12 месяцев</div>
+                    <div class="its-service__grid-item">3900 руб.</div>
+                    <div class="its-service__grid-item">4900 руб.</div>
+                    <div class="its-service__grid-item">5900 руб.</div>
+                    <div class="its-service__grid-item">6900 руб.</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey1">Универсальный тариф для ЮЛ на 24
+                        месяца</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey1">7000 руб.</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey1">8800 руб.</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey1">10600 руб.</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey1">12400 руб.</div>
+                    <div class="its-service__grid-item">Тариф для ИП на 12 месяцев</div>
+                    <div class="its-service__grid-item">1500 руб.</div>
+                    <div class="its-service__grid-item">1800 руб.</div>
+                    <div class="its-service__grid-item">2200 руб.</div>
+                    <div class="its-service__grid-item">3200 руб.</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey">Тариф для ИП на 24 месяца</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey">2700 руб.</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey">3200 руб.</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey">3900 руб.</div>
+                    <div class="its-service__grid-item its-service__grid-item--grey">5700 руб.</div>
+                </div>
+                <a class="its-service__btn" href="#">Заказать</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a href="./index.html"><img class="logo" src="./images/logo.png" alt=""></a>
+                </div>
+                <div class="footer__info">Мы 1с франчайзи, у нас есть возможность предоставить клиенту более
+                    выгодную
+                    цену на услуги по сравнению с другими компаниями.
+                </div>
+                <div class="footer__search">
+                    <input class="footer__search-input" type="text" placeholder="Поиск по сайту">
+                    <button class="footer__search-btn"><img src="./images/arrow-right-btn.png" alt=""></button>
+                </div>
+                <div class="footer__social">
+                    <a class="footer__social-item" href="#"><img src="./images/tg.png" alt=""></a>
+                    <a class="footer__social-item" href="#"><img src="./images/whatsApp.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer__menu-wrapper">
+                <div class="footer__menu">
+                    <div class="footer__menu-title">КАТЕГОРИИ</div>
+                    <nav class="footer__menu-links">
+                        <a href="./franchisee-about.html" class="footer__menu-link">1С: франчайзи</a>
+                        <a href="#" class="footer__menu-link">Системное администрирование</a>
+                        <a href="#" class="footer__menu-link">GPS мониторинг</a>
+                        <a href="#" class="footer__menu-link">Разработка сайтов</a>
+                        <a href="#" class="footer__menu-link">Битрикс 24</a>
+                        <a href="#" class="footer__menu-link">Видеонаблюдение</a>
+                        <a href="#" class="footer__menu-link">Учебный центр</a>
+                    </nav>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu-title">МАГАЗИН</div>
+                    <nav class="footer__menu-links">
+                        <a href="#" class="footer__menu-link">Услуги</a>
+                        <a href="#" class="footer__menu-link">Акции</a>
+                        <a href="#" class="footer__menu-link">Продукты</a>
+                    </nav>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu-title">ПОДРОБНЕЕ</div>
+                    <nav class="footer__menu-links">
+                        <a href="#" class="footer__menu-link">О компании</a>
+                        <a href="#" class="footer__menu-link">Вакансии</a>
+                        <a href="#" class="footer__menu-link">Контакты</a>
+                        <a href="#" class="footer__menu-link">Клиентам</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="footer__copyright-inner">
+                © 2022 Компания «Аксиома». Все права защищены
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

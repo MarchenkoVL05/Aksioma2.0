@@ -181,6 +181,25 @@
   }
 }
 
+.fr-its-services-link {
+  margin: 50px auto 0;
+  max-width: 1400px;
+  padding: 0 15px;
+  a {
+    padding: 10px 15px;
+    background-color: #d83b3d;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Exo 2";
+    font-size: 18px;
+    box-shadow: 4px 4px 8px 0px #223c5033;
+    transition: 0.5s all;
+    &:hover {
+      background-color: #483bd8;
+    }
+  }
+}
+
 .fr-services-info {
   margin: 70px auto 0;
   max-width: 1400px;

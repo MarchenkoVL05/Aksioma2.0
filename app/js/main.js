@@ -30,6 +30,14 @@ window.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
+  if (fadeInScale) {
+    fadeInScale.forEach((item) => {
+      if (item.classList.contains("scale--immediately")) {
+        item.style.transform = "scale(1)";
+        item.style.opacity = "1";
+      }
+    });
+  }
   // Срабатывание анимации на скролл
   window.addEventListener("scroll", () => {
     if (fadeInLeft) {
