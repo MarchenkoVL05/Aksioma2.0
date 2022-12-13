@@ -76,7 +76,7 @@ window.addEventListener("DOMContentLoaded", () => {
       headerProfileMenu.style.display = "flex";
       setTimeout(() => {
         headerProfileMenu.style.opacity = "1";
-      }, 400);
+      }, 50);
       setTimeout(() => {
         headerProfileMenu.style.opacity = "0";
         setTimeout(() => {
