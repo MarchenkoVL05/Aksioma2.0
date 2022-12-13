@@ -237,6 +237,14 @@
 }
 
 @media (max-width: 576px) {
+  .header {
+    &__top-left {
+      display: none;
+    }
+    &__top-inner {
+      justify-content: flex-end;
+    }
+  }
   .breadcrumbs {
     display: none;
   }

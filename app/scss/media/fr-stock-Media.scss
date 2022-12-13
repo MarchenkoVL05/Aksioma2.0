@@ -1,0 +1,79 @@
+@media (max-width: 922px) {
+  .fr-stock {
+    &__more-info {
+      display: none;
+    }
+    &__title {
+      font-size: 28px;
+    }
+    &__descr {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    &__btn {
+      font-size: 18px;
+      max-width: 220px;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 24px;
+      margin-top: 10px;
+      &--bold {
+        font-size: 24px;
+      }
+      &--semibold {
+        font-size: 20px;
+      }
+    }
+    &__list {
+      margin-top: 10px;
+    }
+    &__list-item {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+}
+
+@media (max-width: 544px) {
+  .fr-stock {
+    &__date {
+      font-size: 16px;
+    }
+    &__img {
+      max-height: 200px;
+    }
+    &__more-info {
+      display: none;
+    }
+    &__title {
+      font-size: 22px;
+    }
+    &__descr {
+      font-size: 16px;
+      line-height: 21px;
+    }
+    &__btn {
+      font-size: 16px;
+      max-width: 200px;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 21px;
+      margin-top: 10px;
+      &--bold {
+        font-size: 20px;
+      }
+      &--semibold {
+        font-size: 18px;
+      }
+    }
+    &__list {
+      margin-top: 10px;
+    }
+    &__list-item {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+}

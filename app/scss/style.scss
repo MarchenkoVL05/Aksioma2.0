@@ -74,11 +74,12 @@ a {
   box-shadow: 0 0 8px #0000001a;
 
   &__top {
-    height: 35px;
-    background-color: #f8f8f8;
+    height: 32px;
+    background-color: #f7f7f7;
     display: flex;
     align-items: center;
     position: relative;
+    border: 1px solid #e7e7e7;
   }
   &__top-inner {
     width: 1400px;
@@ -87,20 +88,64 @@ a {
     text-align: right;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     gap: 18px;
   }
-  &__top-link {
+  &__top-right {
+    display: flex;
+    gap: 12px;
+  }
+  &__top-left {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-family: "Roboto Condensed";
+    gap: 16px;
+  }
+  &__top-btn {
+    font-family: "Exo 2";
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: #ffe176;
+    background: rgb(255, 225, 118);
+    background: linear-gradient(85deg, rgba(255, 225, 118, 1) 0%, rgba(255, 189, 95, 1));
+    border-radius: 5px;
+    color: #313131;
+    padding: 2px 15px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+    transition: 0.2s all;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -13px;
+      height: 17px;
+      width: 2px;
+      background-color: #dbdbdb;
+    }
+  }
+  &__top-search {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    img {
+      height: 30px;
+    }
+  }
+  &__top-link {
+    font-family: "Exo 2";
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
     transition: 0.3s color;
     &:hover {
       color: #6c3bce;
     }
     img {
-      height: 25px;
+      height: 23px;
     }
   }
   &__top-panel {
@@ -1127,3 +1172,4 @@ a {
 @import "./media/its-service-Media.scss";
 @import "./media/franchisee-subscription-Media.scss";
 @import "./media/fr-stocks-Media.scss";
+@import "./media/fr-stock-Media.scss";
