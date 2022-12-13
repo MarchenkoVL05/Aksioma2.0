@@ -1152,7 +1152,107 @@ a {
   }
 }
 
+.popupForm {
+  display: none;
+  position: fixed;
+  z-index: 3;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 46px 36px;
+  width: 638px;
+  min-height: 720px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  overflow: scroll;
+  &__close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 18px;
+    right: 26px;
+    background: #ffffff;
+    border: 1px solid #f4f4f4;
+    box-shadow: 4px 4px 4px rgba(170, 170, 170, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s all;
+    &:hover {
+      box-shadow: 4px 4px 4px rgba(226, 226, 226, 0.25);
+    }
+  }
+  &__title {
+    font-family: "Exo 2";
+    font-weight: 500;
+    font-size: 32px;
+    color: #4a4a4a;
+  }
+  &__form {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__label {
+    font-weight: 500;
+    font-size: 24px;
+    color: #4a4a4a;
+    :not(:first-child) {
+      margin-top: 20px;
+    }
+    span {
+      font-weight: 500;
+      font-size: 24px;
+      color: #ff0000;
+    }
+  }
+  &__input {
+    margin-top: 10px;
+    height: 49px;
+    background: #ffffff;
+    border: 1px solid #cbcbcb;
+    border-radius: 3px;
+    padding: 0 15px;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: #cbcbcb;
+    }
+  }
+  &__btn {
+    width: 356px;
+    height: 74px;
+    background: rgb(255, 230, 0);
+    background: linear-gradient(104deg, rgb(225, 203, 2) 0%, rgba(255, 153, 1, 1) 100%);
+    box-shadow: 6px 6px 5px rgba(37, 37, 37, 0.25);
+    border-radius: 50px;
+    border: none;
+    margin: 40px auto 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  &__info {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    a {
+      font-size: 14px;
+      color: #1888a3;
+    }
+  }
+}
+
 // Внутренние страницы
+// Раздел 1С: Франчайзи
 @import "./franchisee-about.scss";
 @import "./franchisee-services.scss";
 @import "./its.scss";
@@ -1162,7 +1262,9 @@ a {
 @import "./franchisee-subscription-service.scss";
 @import "./fr-stocks.scss";
 @import "./fr-stock.scss";
+@import "./franchisee-products.scss";
 // Адаптив
+// Раздел 1С: Франчайзи
 @import "./media/main-Media.scss";
 @import "./media/franchisee-about-Media.scss";
 @import "./media/franchisee-services-Media.scss";

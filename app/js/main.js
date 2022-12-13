@@ -168,4 +168,37 @@ window.addEventListener("DOMContentLoaded", () => {
     headerPopup.style.color = "#ababab";
     headerPopup.style.justifyContent = "center";
   }
+
+  // Попап формы обратной связи
+  let popupForm = document.querySelector(".popupForm");
+  let popupClose = document.querySelector(".popupForm__close");
+  let dealBtn = document.querySelector(".deal__btn");
+  let consultationBtn = document.querySelector(".consultation__btn");
+
+  function showPopup() {
+    popupForm.style.display = "block";
+    overlay.style.position = "fixed";
+    overlay.style.display = "block";
+    document.querySelector("body").style.overflowY = "hidden";
+  }
+
+  if (popupForm && popupClose) {
+    popupClose.addEventListener("click", () => {
+      popupForm.style.display = "none";
+      overlay.style.display = "none";
+      document.querySelector("body").style.overflowY = "visible";
+    });
+  }
+
+  if (dealBtn) {
+    dealBtn.addEventListener("click", () => {
+      showPopup();
+    });
+  }
+
+  if (consultationBtn) {
+    consultationBtn.addEventListener("click", () => {
+      showPopup();
+    });
+  }
 });

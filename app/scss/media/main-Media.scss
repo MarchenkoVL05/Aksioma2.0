@@ -236,6 +236,21 @@
   }
 }
 
+@media (max-width: 680px) {
+  .popupForm {
+    width: 100%;
+    height: 100%;
+    &__content {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &__close {
+      top: 40px;
+    }
+  }
+}
+
 @media (max-width: 576px) {
   .header {
     &__top-left {
@@ -369,5 +384,35 @@
 
   .stocks {
     display: none;
+  }
+}
+
+@media (max-width: 544px) {
+  .popupForm {
+    &__title {
+      font-size: 22px;
+    }
+    &__close {
+      height: 35px;
+      width: 35px;
+      img {
+        height: 15px;
+      }
+    }
+    &__form {
+      margin-top: 40px;
+    }
+    &__label {
+      font-size: 18px;
+    }
+    &__input {
+      height: 40px;
+    }
+    &__btn {
+      font-size: 16px;
+      width: fit-content;
+      height: 50px;
+      padding: 10px 14px;
+    }
   }
 }
