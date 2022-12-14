@@ -1,0 +1,147 @@
+@media (max-width: 1410px) {
+  .outsource {
+    &__hero-title {
+      font-size: 36px;
+      line-height: 42px;
+    }
+    &__hero-descr {
+      margin-top: 20px;
+      font-size: 20px;
+      line-height: 28px;
+    }
+    &__hero-img {
+      max-height: 460px;
+    }
+    &__hero-btn {
+      width: 190px;
+      height: 50px;
+    }
+  }
+}
+
+@media (max-width: 1140px) {
+  .outsource {
+    &__hero {
+      flex-direction: column-reverse;
+      gap: 25px;
+    }
+    &__hero-title {
+      font-size: 28px;
+      line-height: 34px;
+    }
+    &__hero-descr {
+      margin-top: 20px;
+      font-size: 18px;
+      line-height: 25px;
+    }
+    &__hero-img {
+      max-height: 420px;
+    }
+  }
+
+  .outsource__features {
+    margin-top: 40px;
+
+    &-title {
+      font-size: 28px;
+    }
+    &-item-descr {
+      font-size: 18px;
+      line-height: 29px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .outsource__features {
+    &-item {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .outsource {
+    &__hero-title {
+      font-size: 22px;
+      line-height: 29px;
+    }
+    &__hero-descr {
+      margin-top: 10px;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &__hero-img {
+      max-height: 310px;
+    }
+    &__hero-btn {
+      margin-top: 30px;
+      width: 135px;
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+  .outsource__features {
+    &-title {
+      font-size: 24px;
+    }
+    &-item-title {
+      font-size: 20px;
+    }
+    &-item-descr {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .outsource {
+    &__hero-title {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    &__hero-descr {
+      margin-top: 10px;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &__hero-img {
+      max-height: 260px;
+    }
+  }
+
+  .outsource__features {
+    &__title {
+      font-size: 26px;
+    }
+    &-item-img {
+      max-height: 70px;
+    }
+    &-item-title {
+      font-size: 18px;
+    }
+    &-item-descr {
+      line-height: 22px;
+    }
+  }
+
+  .outsource-info {
+    font-size: 16px;
+    line-height: 25px;
+    span {
+      font-size: 18px;
+    }
+  }
+
+  .outsource-why-us {
+    &__title {
+      font-size: 22px;
+    }
+    &__list-item {
+      font-size: 18px;
+      margin-top: 30px;
+    }
+  }
+}

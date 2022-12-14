@@ -101,7 +101,7 @@ a {
     gap: 16px;
   }
   &__top-btn {
-    height: 32px;
+    height: 30px;
     font-family: "Exo 2";
     font-size: 18px;
     font-weight: 700;
@@ -755,6 +755,10 @@ a {
     background-color: #ffff;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     border-radius: 10px;
+    transition: 0.2s all;
+    &:hover {
+      box-shadow: 9px 11px 20px 3px rgb(34 60 80 / 20%);
+    }
   }
   &__item-img {
     height: 90px;
@@ -881,6 +885,7 @@ a {
   &__inner {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -944,6 +949,10 @@ a {
     &--coral {
       background: linear-gradient(173deg, #dd5b5b, #cc1c1cea);
     }
+    &--green {
+      background: rgb(71, 122, 53);
+      background: linear-gradient(175deg, rgba(71, 122, 53, 1) 0%, rgb(33, 189, 106) 100%);
+    }
   }
   &__content {
     position: relative;
@@ -963,6 +972,9 @@ a {
     }
     .coral {
       color: #dd5b5b;
+    }
+    .green {
+      color: #5d914b;
     }
   }
   &__subtitle {
@@ -1145,7 +1157,8 @@ a {
 }
 
 .breadcrumbs {
-  margin-top: 20px;
+  max-width: 1400px;
+  margin: 20px auto 0;
   &__list {
     list-style-type: none;
     display: flex;
@@ -1181,18 +1194,19 @@ a {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  padding: 46px 36px;
-  width: 638px;
-  min-height: 720px;
+  padding: 58px 36px;
+  width: 538px;
+  max-height: 100%;
   background: #ffffff;
   border-radius: 15px;
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  overflow: auto;
   &__close {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     position: absolute;
     top: 18px;
     right: 26px;
@@ -1205,21 +1219,24 @@ a {
     &:hover {
       box-shadow: 4px 4px 4px rgba(226, 226, 226, 0.25);
     }
+    img {
+      height: 16px;
+    }
   }
   &__title {
     font-family: "Exo 2";
     font-weight: 500;
-    font-size: 32px;
+    font-size: 26px;
     color: #4a4a4a;
   }
   &__form {
-    margin-top: 85px;
+    margin-top: 65px;
     display: flex;
     flex-direction: column;
   }
   &__label {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     color: #4a4a4a;
     :not(:first-child) {
       margin-top: 20px;
@@ -1232,7 +1249,7 @@ a {
   }
   &__input {
     margin-top: 10px;
-    height: 49px;
+    height: 39px;
     background: #ffffff;
     border: 1px solid #cbcbcb;
     border-radius: 3px;
@@ -1246,7 +1263,7 @@ a {
   }
   &__btn {
     width: 330px;
-    height: 55px;
+    height: 45px;
     background: rgb(255, 230, 0);
     background: linear-gradient(104deg, rgb(225, 203, 2) 0%, rgba(255, 153, 1, 1) 100%);
     box-shadow: 6px 6px 5px rgba(37, 37, 37, 0.25);
@@ -1254,11 +1271,15 @@ a {
     border: none;
     margin: 40px auto 0;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
     color: #ffffff;
+    transition: 0.2s all;
     cursor: pointer;
+    &:hover {
+      box-shadow: 3px 3px 2px rgba(149, 149, 149, 0.25);
+    }
   }
 
   &__info {
@@ -1284,9 +1305,13 @@ a {
 @import "./fr-stocks.scss";
 @import "./fr-stock.scss";
 @import "./franchisee-products.scss";
+// Раздел IT Аутсорсинг
+@import "./outsource-about.scss";
+@import "./outs-services.scss";
+
 // Адаптив
-// Раздел 1С: Франчайзи
 @import "./media/main-Media.scss";
+// Раздел 1С: Франчайзи
 @import "./media/franchisee-about-Media.scss";
 @import "./media/franchisee-services-Media.scss";
 @import "./media/its-Media.scss";
@@ -1296,3 +1321,6 @@ a {
 @import "./media/franchisee-subscription-Media.scss";
 @import "./media/fr-stocks-Media.scss";
 @import "./media/fr-stock-Media.scss";
+// Раздел IT Аутсорсинг
+@import "./media/outsource-about-Media.scss";
+@import "./media/outs-services-Media.scss";

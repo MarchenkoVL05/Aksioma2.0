@@ -1,0 +1,126 @@
+@media (max-width: 992px) {
+  .outs-services-lines {
+    &__title {
+      font-size: 26px;
+    }
+    &__item {
+      font-size: 17px;
+      line-height: 25px;
+    }
+  }
+  .outs-services {
+    &__title {
+      font-size: 26px;
+    }
+    &__img {
+      max-height: 300px;
+    }
+    &__list-item {
+      margin-top: 25px;
+      font-size: 16px;
+      line-height: 25px;
+      img {
+        max-height: 20px;
+      }
+    }
+    &__btn {
+      width: 240px;
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+  .outs-services-bg {
+    &__title {
+      font-size: 26px;
+    }
+    &__img {
+      max-height: 350px;
+    }
+    &__list-item {
+      margin-top: 25px;
+      font-size: 16px;
+      line-height: 25px;
+      img {
+        max-height: 20px;
+      }
+    }
+    &__btn {
+      width: 240px;
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+  .outs-s-recommendation {
+    &__title {
+      font-size: 26px;
+    }
+    &__item {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .outs-services__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .outs-services {
+    padding: 30px 15px;
+    &__inner {
+      margin-top: 20px;
+    }
+  }
+  .outs-services-bg {
+    padding: 25px 15px;
+    &__inner {
+      margin: 0 auto;
+      padding: 10px 15px 25px;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    &__list {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 544px) {
+  .outs-services {
+    &-lines__wrapper {
+      gap: 30px;
+    }
+    &-lines__title {
+      font-size: 22px;
+    }
+    &-lines__item {
+      max-width: 100%;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &__title {
+      font-size: 19px;
+    }
+    &__list-item {
+      margin-top: 18px;
+      line-height: 20px;
+    }
+  }
+  .outs-services-bg {
+    &__img {
+      max-height: 280px;
+    }
+    &__title {
+      font-size: 19px;
+    }
+    &__list-item {
+      margin-top: 18px;
+      line-height: 20px;
+    }
+  }
+  .outs-s-recommendation {
+    &__title {
+      font-size: 19px;
+    }
+  }
+}

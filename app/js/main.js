@@ -86,6 +86,45 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Попап формы обратной связи
+  let popupForm = document.querySelector(".popupForm");
+  let popupClose = document.querySelector(".popupForm__close");
+  let dealBtn = document.querySelector(".deal__btn");
+  let consultationBtn = document.querySelector(".consultation__btn");
+  let outsourceServicesBtn = document.querySelector(".outs-services-bg__btn");
+
+  function showPopup() {
+    popupForm.style.display = "block";
+    overlay.style.position = "fixed";
+    overlay.style.display = "block";
+    document.querySelector("body").style.overflowY = "hidden";
+  }
+
+  if (popupForm && popupClose) {
+    popupClose.addEventListener("click", () => {
+      popupForm.style.display = "none";
+      overlay.style.display = "none";
+      document.querySelector("body").style.overflowY = "visible";
+    });
+  }
+
+  if (dealBtn) {
+    dealBtn.addEventListener("click", () => {
+      showPopup();
+    });
+  }
+
+  if (consultationBtn) {
+    consultationBtn.addEventListener("click", () => {
+      showPopup();
+    });
+  }
+  if (outsourceServicesBtn) {
+    outsourceServicesBtn.addEventListener("click", () => {
+      showPopup();
+    });
+  }
+
   // Бургер меню
   let openBurger = document.querySelector(".burger__icon");
   let burgerMenu = document.querySelector(".burger__menu");
@@ -106,6 +145,9 @@ window.addEventListener("DOMContentLoaded", () => {
     overlay.addEventListener("click", () => {
       burgerMenu.style.display = "none";
       overlay.style.display = "none";
+      if (popupForm) {
+        popupForm.style.display = "none";
+      }
       document.querySelector("body").style.overflowY = "visible";
     });
   }
@@ -167,38 +209,5 @@ window.addEventListener("DOMContentLoaded", () => {
     headerPopup.textContent = "Пусто";
     headerPopup.style.color = "#ababab";
     headerPopup.style.justifyContent = "center";
-  }
-
-  // Попап формы обратной связи
-  let popupForm = document.querySelector(".popupForm");
-  let popupClose = document.querySelector(".popupForm__close");
-  let dealBtn = document.querySelector(".deal__btn");
-  let consultationBtn = document.querySelector(".consultation__btn");
-
-  function showPopup() {
-    popupForm.style.display = "block";
-    overlay.style.position = "fixed";
-    overlay.style.display = "block";
-    document.querySelector("body").style.overflowY = "hidden";
-  }
-
-  if (popupForm && popupClose) {
-    popupClose.addEventListener("click", () => {
-      popupForm.style.display = "none";
-      overlay.style.display = "none";
-      document.querySelector("body").style.overflowY = "visible";
-    });
-  }
-
-  if (dealBtn) {
-    dealBtn.addEventListener("click", () => {
-      showPopup();
-    });
-  }
-
-  if (consultationBtn) {
-    consultationBtn.addEventListener("click", () => {
-      showPopup();
-    });
   }
 });
