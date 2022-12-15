@@ -210,4 +210,16 @@ window.addEventListener("DOMContentLoaded", () => {
     headerPopup.style.color = "#ababab";
     headerPopup.style.justifyContent = "center";
   }
+
+  // Слайдер До - После
+  let otsFbSlider = document.querySelector(".outs-fb-projects__slider");
+  let imgAfter = document.querySelector(".outs-fb-projects__slider-imgAfter");
+  let otsSliderLine = document.querySelector(".outs-fb-projects__slider-line");
+
+  if (otsFbSlider) {
+    otsFbSlider.addEventListener("mousemove", (e) => {
+      imgAfter.style.width = `${e.layerX}px`;
+      otsSliderLine.style.left = `${e.layerX}px`;
+    });
+  }
 });

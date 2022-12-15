@@ -1,0 +1,113 @@
+@media (max-width: 1340px) {
+  .outs-fb {
+    &__title {
+      font-size: 28px;
+    }
+    &__item {
+      max-width: 350px;
+    }
+    &__item-img {
+      max-height: 130px;
+    }
+    &__item-title {
+      font-size: 20px;
+    }
+    &__item-descr {
+      font-size: 17px;
+    }
+    &__item-name {
+      font-size: 16px;
+    }
+  }
+
+  .outs-fb-projects {
+    &__title {
+      font-size: 26px;
+    }
+    &__subtitle {
+      font-size: 20px;
+    }
+    &__repair-title {
+      font-size: 28px;
+    }
+    &__repair-img {
+      max-height: 254px;
+    }
+    &__slider-title {
+      font-size: 20px;
+    }
+
+    &__slider {
+      width: 400px;
+      &-img {
+        width: 400px;
+      }
+    }
+    &__inner {
+      justify-content: space-evenly;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .outs-fb {
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .outs-fb-projects {
+    &__inner {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+
+@media (max-width: 544px) {
+  .outs-fb {
+    &__title {
+      font-size: 22px;
+    }
+    &__item-title {
+      font-size: 16px;
+    }
+    &__item-img {
+      max-height: 90px;
+    }
+    &__item-descr {
+      font-size: 16px;
+    }
+  }
+
+  .outs-fb-projects {
+    &__title {
+      font-size: 22px;
+    }
+    &__subtitle {
+      font-size: 18px;
+    }
+    &__repair-title {
+      font-size: 22px;
+    }
+    &__repair-img {
+      max-height: 170px;
+      max-width: 290px;
+      margin-top: 20px;
+    }
+
+    &__slider-title {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    &__slider {
+      width: 280px;
+    }
+    &__slider-img {
+      width: 280px;
+    }
+  }
+}

@@ -1,3 +1,11 @@
+@media (max-width: 1140px) {
+  .outs-services-bg {
+    &__img {
+      max-height: 350px;
+    }
+  }
+}
+
 @media (max-width: 992px) {
   .outs-services-lines {
     &__title {
@@ -31,10 +39,11 @@
   }
   .outs-services-bg {
     &__title {
+      margin-top: 20px;
       font-size: 26px;
     }
     &__img {
-      max-height: 350px;
+      max-height: 280px;
     }
     &__list-item {
       margin-top: 25px;
@@ -82,6 +91,9 @@
     &__list {
       margin-top: 30px;
     }
+    &__title {
+      text-align: center;
+    }
   }
 }
 
@@ -108,7 +120,7 @@
   }
   .outs-services-bg {
     &__img {
-      max-height: 280px;
+      max-height: 180px;
     }
     &__title {
       font-size: 19px;
