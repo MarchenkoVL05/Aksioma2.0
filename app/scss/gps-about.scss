@@ -1,0 +1,149 @@
+.gps {
+  background-color: #f7f7f7;
+  &__inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 15px 80px;
+  }
+  &__logo {
+    position: relative;
+    img {
+      max-width: 440px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: #e4e4e4;
+      bottom: -30px;
+      left: 0;
+    }
+  }
+  &__hero {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  &__hero-img {
+    max-height: 622px;
+    max-width: 790px;
+  }
+  &__hero-text {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #676767;
+    margin-top: 55px;
+  }
+  &__hero-btn {
+    margin-top: 35px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    font-size: 22px;
+    color: #ffff;
+    font-family: "Exo 2";
+    border-radius: 10px;
+    background: #87d869;
+    background: linear-gradient(212deg, rgba(135, 216, 105, 1) 0%, rgba(175, 199, 99, 1) 100%);
+    box-shadow: #00000059 0px 5px 15px;
+    position: relative;
+    &::after {
+      content: "Услуги GPS мониторинга";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background: #d8d269;
+      background: linear-gradient(212deg, rgb(217, 222, 78) 0%, rgb(227, 138, 78) 100%);
+      box-shadow: #5b5b5b59 0px 5px 15px;
+      transition: 0.2s all;
+      opacity: 0;
+    }
+    &:hover::after {
+      opacity: 1;
+    }
+  }
+}
+
+.gps__features {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #dedede;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 260px;
+    &-img {
+      max-height: 60px;
+    }
+    &-title {
+      margin-top: 15px;
+      font-size: 22px;
+      font-weight: 500;
+      color: #2f2f2f;
+      text-align: center;
+    }
+    &-descr {
+      font-size: 18px;
+      line-height: 25px;
+      color: #4d4d4d;
+      margin-top: 5px;
+      text-align: center;
+    }
+  }
+}
+
+.gps {
+  &__wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  &__title {
+    margin-top: 50px;
+    font-family: "Exo 2";
+    font-size: 32px;
+    font-weight: 600;
+    color: #2f2f2f;
+  }
+  &__item-link {
+    display: block;
+  }
+  &__item {
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 10px;
+    width: 420px;
+    min-height: 420px;
+    padding: 10px 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.2s all;
+    &:hover {
+      box-shadow: rgba(188, 188, 190, 0.2) 0px 7px 29px 0px;
+    }
+  }
+  &__item-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  &__item-descr {
+    margin-top: 15px;
+    color: #4e4e4e;
+  }
+  &__item-img {
+    width: 100%;
+  }
+}

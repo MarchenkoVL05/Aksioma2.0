@@ -19,6 +19,10 @@ body {
 
 .content {
   flex: 1 0 auto;
+  padding-bottom: 100px;
+  &--pb0 {
+    padding-bottom: 0;
+  }
 }
 
 a {
@@ -953,6 +957,10 @@ a {
       background: rgb(71, 122, 53);
       background: linear-gradient(175deg, rgba(71, 122, 53, 1) 0%, rgb(33, 189, 106) 100%);
     }
+    &--light-green {
+      background: #87d869;
+      background: linear-gradient(212deg, #87d869, #afc763);
+    }
   }
   &__content {
     position: relative;
@@ -976,6 +984,9 @@ a {
     .green {
       color: #5d914b;
     }
+    .light-green {
+      color: #87d869;
+    }
   }
   &__subtitle {
     margin-top: 5px;
@@ -987,7 +998,6 @@ a {
 
 .footer {
   flex: 0 0 auto;
-  margin-top: 100px;
   padding: 40px 15px 120px;
   min-height: 430px;
   background: #ffffff;
@@ -1311,6 +1321,8 @@ a {
 @import "./outsource-about.scss";
 @import "./outs-services.scss";
 @import "./outsource-feedback.scss";
+// Раздел GPS Мониторинг
+@import "./gps-about.scss";
 
 // Адаптив
 @import "./media/main-Media.scss";
@@ -1330,3 +1342,5 @@ a {
 @import "./media/outsource-about-Media.scss";
 @import "./media/outs-services-Media.scss";
 @import "./media/outsource-feedback-Media.scss";
+// Раздел GPS Мониторинг
+@import "./media/gps-about-Media.scss";
