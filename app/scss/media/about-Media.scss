@@ -1,0 +1,15 @@
+@media (max-width: 920px) {
+  .about {
+    &__title {
+      font-size: 28px;
+    }
+  }
+}
+
+@media (max-width: 544px) {
+  .about {
+    &__title {
+      font-size: 24px;
+    }
+  }
+}
