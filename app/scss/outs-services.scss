@@ -60,10 +60,10 @@
   background-color: #f8f8f8;
   &__inner {
     max-width: 1400px;
-    padding: 60px 15px 25px;
+    padding: 55px 15px;
     margin: 70px auto 0;
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
   }
   &__img {
     max-height: 480px;

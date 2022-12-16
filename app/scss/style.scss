@@ -1294,6 +1294,8 @@ a {
 }
 
 // Внутренние страницы
+// Контакты
+@import "./contacts.scss";
 // Раздел 1С: Франчайзи
 @import "./franchisee-about.scss";
 @import "./franchisee-services.scss";
@@ -1312,6 +1314,8 @@ a {
 
 // Адаптив
 @import "./media/main-Media.scss";
+// Контакты
+@import "./media/contacts-Media.scss";
 // Раздел 1С: Франчайзи
 @import "./media/franchisee-about-Media.scss";
 @import "./media/franchisee-services-Media.scss";

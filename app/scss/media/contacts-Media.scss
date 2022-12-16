@@ -1,0 +1,95 @@
+@media (max-width: 1320px) {
+  .contacts {
+    &__wrapper {
+      gap: 8px;
+    }
+    &__title {
+      font-size: 28px;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 25px;
+    }
+    &__btn {
+      width: 250px;
+      height: 40px;
+      font-size: 19px;
+    }
+    &__item-img {
+      max-height: 90px;
+    }
+  }
+}
+
+@media (max-width: 1140px) {
+  .contacts {
+    &__inner {
+      flex-direction: column;
+    }
+    &__content {
+      border-radius: 40px 40px 0 0;
+    }
+    &__wrapper {
+      justify-content: center;
+    }
+    &__title {
+      text-align: center;
+    }
+    &__subtitle {
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
+      margin: 30px auto;
+    }
+    &__btn {
+      margin: 30px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__map {
+      display: none;
+    }
+    &__map--mobile {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .contacts {
+    &__wrapper {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    &__content {
+      padding: 30px 15px;
+    }
+    &__title {
+      margin-top: 18px;
+      font-size: 22px;
+    }
+    &__subtitle {
+      font-size: 20px;
+    }
+    &__text {
+      margin: 16px auto;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &__item-title {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    &__item-descr {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+    &__btn {
+      width: 200px;
+      height: 35px;
+      font-size: 18px;
+    }
+  }
+}

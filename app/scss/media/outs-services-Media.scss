@@ -38,6 +38,9 @@
     }
   }
   .outs-services-bg {
+    &__inner {
+      align-items: center;
+    }
     &__title {
       margin-top: 20px;
       font-size: 26px;
@@ -87,6 +90,7 @@
       padding: 10px 15px 25px;
       flex-direction: column-reverse;
       align-items: center;
+      gap: 10px;
     }
     &__list {
       margin-top: 30px;

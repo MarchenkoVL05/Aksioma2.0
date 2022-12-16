@@ -1,0 +1,86 @@
+.contacts {
+  background-image: url(../images/contacts-bg.png);
+  background-position: center center;
+  background-size: contain;
+  &__inner {
+    max-width: 1700px;
+    padding: 50px 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  &__map {
+    border-radius: 40px 0 0 40px;
+    &--mobile {
+      display: none;
+    }
+  }
+  &__content {
+    padding: 50px 40px;
+    background: linear-gradient(180deg, #ffffff80 0%, #ffffff4d 100%);
+    backdrop-filter: blur(7px);
+    border-radius: 0px 40px 40px 0px;
+  }
+  &__wrapper {
+    display: flex;
+    gap: 30px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+  }
+  &__item-title {
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #292929;
+    text-align: center;
+  }
+  &__item-descr {
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 16px;
+    color: #464646;
+    text-align: center;
+    line-height: 25px;
+  }
+  &__title {
+    margin-top: 35px;
+    font-family: "Exo 2";
+    font-size: 36px;
+    font-weight: 700;
+    color: #292929;
+  }
+  &__subtitle {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #464646;
+  }
+  &__text {
+    max-width: 600px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  &__btn {
+    margin-top: 40px;
+    width: 280px;
+    height: 50px;
+    background-color: #292929;
+    border: 1px solid #292929;
+    font-family: "Exo 2";
+    font-size: 22px;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      background-color: #ffffff;
+      color: #292929;
+    }
+  }
+}
