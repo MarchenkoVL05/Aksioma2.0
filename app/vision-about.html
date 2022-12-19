@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Шрифты -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;500;600;700;800;900&family=Inter:wght@100;300;400;500;800;900&family=Montserrat:wght@100;300;400;500;600;700;900&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Аксиома: 1C Франчайзи</title>
+</head>
+
+<body class="main-body">
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-inner">
+                <div class="header__top-left">
+                    <button class="header__top-btn">Заказать звонок</button>
+                    <button class="header__top-search"><img src="./images/search.png" alt="Поиск"></button>
+                </div>
+                <div class="header__top-right">
+                    <a class="header__top-link" href="#"><img src="./images/cart.png" alt="Корзина"></a>
+                    <a class="header__top-link header__top-link--profile" href="#">Владимир Марченко<img
+                            src="./images/user.png" alt=""></a>
+                    <div class="header__top-panel">
+                        <img src="./images/user.png" alt="">
+                        <a href="#">Перейти в профиль</a>
+                        <button class="header__top-panel-btn">Выйти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__inner">
+            <div class="header__info">
+                <a href="./index.html"><img class="logo" src="./images/logo.png" alt=""></a>
+                <nav class="header__menu">
+                    <a class="header__menu-item" href="./about.html">О компании</a>
+                    <a class="header__menu-item" href="#">Вакансии</a>
+                    <a class="header__menu-item" href="#">Программы</a>
+                    <a class="header__menu-item" href="contacts.html">Контакты</a>
+                    <a class="header__menu-item" href="#">Клиентам</a>
+                </nav>
+            </div>
+            <div class="header__contacts">
+                <div class="header__contacts-item">
+                    <a href="#">
+                        <img src="./images/Phone.png" alt="">+7 (3537) 30-70-90
+                    </a>
+                </div>
+                <div class="header__contacts-item">
+                    <a href="./contacts.html">
+                        <img src="./images/map.png" alt=""> Орск, ул.Ленинского Комсомола, 2А
+                    </a>
+                </div>
+                <div class="header__contacts-item">
+                    <a href="#">
+                        <img src="./images/sms.png" alt=""> 1с@aksioma.pro
+                    </a>
+                </div>
+            </div>
+            <div class="burger">
+                <img class="burger__icon" src="./images/menu.png" alt="">
+                <div class="burger__menu">
+                    <div class="burger__logo">
+                        <img class="logo" src="./images/logo.png" alt="">
+                    </div>
+                    <div class="burger__close"><img src="./images/close.png" alt=""></div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Основное меню</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./about.html">О компании</a>
+                            <a class="burger__menu-item" href="#">Вакансии</a>
+                            <a class="burger__menu-item" href="#">Программы</a>
+                            <a class="burger__menu-item" href="contacts.html">Контакты</a>
+                            <a class="burger__menu-item" href="#">Клиентам</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Сис. администрирование</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./outsource-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="./outsource-services.html">Услуги</a>
+                            <a class="burger__menu-item" href="./outsource-feedback.html">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">1с франчайзи</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./franchisee-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="./franchisee-services.html">Услуги</a>
+                            <a class="burger__menu-item" href="./franchisee-its-services.html">Сервисы</a>
+                            <a class="burger__menu-item" href="./franchisee-stocks.html">Акции</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">GPS мониторинг</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./gps-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="./catalog.html">Услуги</a>
+                            <a class="burger__menu-item" href="./gps-possibility-1.html">Возможности</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Разработка сайтов</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Учебный центр</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Битрикс 24</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Видеонаблюдение</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./vision-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__profile">
+                        <div class="burger__profile-inner">
+                            <div class="burger__profile-img">
+                                <img src="./images/user.png" alt="">
+                            </div>
+                            <div class="burger__profile-name"><a href="#">Владимир Марченко</a></div>
+                        </div>
+                        <div class="burger__logOut">
+                            <a href="#">
+                                <div class="burger__logOut-text">Выйти</div>
+                                <img class="burger__logOut-img" src="./images/logout.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay"></div>
+            <div class="popupForm">
+                <div class="popupForm__close">
+                    <img src="./images/close-popup.png" alt="">
+                </div>
+                <div class="popupForm__content">
+                    <div class="popupForm__title">Заказать консультацию</div>
+                    <form class="popupForm__form" action="">
+                        <label class="popupForm__label" for="name">ФИО<span>*</span></label>
+                        <input class="popupForm__input" name="name" type="text" placeholder="Иванов Иван Иванович..."
+                            required>
+                        <label class="popupForm__label" for="phone">Телефон<span>*</span></label>
+                        <input class="popupForm__input" name="phone" type="text" placeholder="+7 800 555 35 35..."
+                            required>
+                        <label class="popupForm__label" for="email">Почта<span>*</span></label>
+                        <input class="popupForm__input" name="email" type="text" placeholder="ivanov@mail.com..."
+                            required>
+                        <label class="popupForm__label" for="message">Чем мы можем Вам помочь?<span></span></label>
+                        <input class="popupForm__input" name="message" type="text" placeholder="Нужна консультация...">
+                        <p class="popupForm__info">ознакомлен(-а) с <a href="#">политикой в области обработки
+                                персональных данных</a>, все условия принимаю</p>
+                        <p class="popupForm__info">Защита от спама reCAPTCHA <a
+                                href="https://policies.google.com/privacy">Конфиденциальность</a> и <a
+                                href="https://policies.google.com/terms">Условия
+                                использования</a></p>
+                        <button class="popupForm__btn">Заказать консультацию</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header__bottom">
+        <nav class="header__bottom-nav">
+            <div class="link-container">
+                <div class="header__bottom-link">Системное администрирование</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./outsource-about.html">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="./outsource-services.html">Услуги</a>
+                    <a href="./outsource-feedback.html">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">1С Франчайзи</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./franchisee-about.html">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="./franchisee-services.html">Услуги</a>
+                    <a href="./franchisee-its-services.html">Сервисы</a>
+                    <a href="./franchisee-stocks.html">Акции</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">GPS Мониторинг</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./gps-about.html">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="./catalog.html">Услуги</a>
+                    <a href="./gps-possibility-1.html">Возможности</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Разработка сайтов</div>
+                <div class="header__bottom-link-menu">
+                    <a href="#">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Учебный центр</div>
+                <div class="header__bottom-link-menu">
+                    <a href="#">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Битрикс24</div>
+                <div class="header__bottom-link-menu">
+                    <a href="#">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Видеонаблюдение</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./vision-about.html">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link-btn-wrapper">
+                    <button class="header__bottom-link-btn"><span>&#x25CF;&#x25CF;&#x25CF;</span> Ещё</button>
+                    <div class="header__bottom-link-popup">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main class="content">
+        <div class="vision">
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__list-item"><a href="./index.html">Главная</a></li>
+                    <li class="breadcrumbs__list-item"><a href="#">Видеонаблюдение</a></li>
+                </ul>
+            </div>
+            <div class="vision__inner">
+                <section class="vision__hero">
+                    <div class="vision__hero-content">
+                        <h1 class="vision__hero-title fadeInLeft fade--immediately">Видонаблюдение</h1>
+                        <div class="vision__hero-descr fadeInLeft fade--immediately">Безопасность — один из основных
+                            моментов работы вашего
+                            предприятия, вне зависимости от масштабов предприятия и видов его деятельности.
+                        </div>
+                        <a class="vision__hero-link fadeInLeft fade--immediately" href="#">Примеры камер</a>
+                    </div>
+                    <img class="vision__hero-img fadeInLeft fade--immediately" src="./images/vision-hero-img.png"
+                        alt="">
+                </section>
+                <section class="solutions">
+                    <h2 class="solutions__title fadeInLeft fade--immediately">Готовые решения для бизнеса</h2>
+                    <h3 class="solutions__subtitle fadeInLeft fade--immediately">Мы собрали для вас комплексные решения
+                        базовых комплектаций, благодоря чему вы сможете быстро внедрить сервис
+                        видеоналблюдения в свой бизнесса
+                    </h3>
+                    <div class="solutions__wrapper">
+                        <div class="solutions__item fadeInLeft">
+                            <img class="solutions__item-img" src="./images/vision1.jpg" alt="">
+                            <div class="solutions__item-content">
+                                <div class="solutions__item-title">
+                                    Видеонаблюдение на заводе
+                                </div>
+                                <div class="solutions__item-descr">Контроль за материальными ценностями, наблюдение за
+                                    периметром, мониторинг рабочего процесса на предприятии.
+                                </div>
+                                <button class="solutions__item-btn" type="button">Узнать больше</button>
+                            </div>
+                        </div>
+                        <div class="solutions__item fadeInLeft">
+                            <img class="solutions__item-img" src="./images/vision2.jpg" alt="">
+                            <div class="solutions__item-content">
+                                <div class="solutions__item-title">
+                                    Видеонаблюдение в кафе
+                                </div>
+                                <div class="solutions__item-descr">Защита от краж продуктов на кухне, защита от от
+                                    манипуляций с наличными на кассе, защита бара от продаж своего алкоголя барменами.
+                                </div>
+                                <button class="solutions__item-btn" type="button">Узнать больше</button>
+                            </div>
+                        </div>
+                        <div class="solutions__item fadeInLeft">
+                            <img class="solutions__item-img" src="./images/vision3.jpg" alt="">
+                            <div class="solutions__item-content">
+                                <div class="solutions__item-title">
+                                    Видеонаблюдение в магазин
+                                </div>
+                                <div class="solutions__item-descr">Предотвращения потерь в розничном магазине и для
+                                    обеспечения безопасности посетителей и сотрудников.
+                                </div>
+                                <button class="solutions__item-btn" type="button">Узнать больше</button>
+                            </div>
+                        </div>
+                        <div class="solutions__item fadeInLeft">
+                            <img class="solutions__item-img" src="./images/vision4.jpg" alt="">
+                            <div class="solutions__item-content">
+                                <div class="solutions__item-title">
+                                    Видеонаблюдение на складе
+                                </div>
+                                <div class="solutions__item-descr">Помогает решить, как минимум две задачи: удержать
+                                    сотрудников от воровства и зафиксировать происходящие события. Чаще всего улучшается
+                                    и производительность работы.
+                                </div>
+                                <button class="solutions__item-btn" type="button">Узнать больше</button>
+                            </div>
+                        </div>
+                        <div class="solutions__item fadeInLeft">
+                            <img class="solutions__item-img" src="./images/vision5.jpg" alt="">
+                            <div class="solutions__item-content">
+                                <div class="solutions__item-title">
+                                    Видеонаблюдение в офис
+                                </div>
+                                <div class="solutions__item-descr">Безопасность персонала, материальных ценностей в
+                                    офисе и компании в целом: обеспечение пожарной и санитарной безопасности.
+                                </div>
+                                <button class="solutions__item-btn" type="button">Узнать больше</button>
+                            </div>
+                        </div>
+                        <div class="solutions__item fadeInLeft">
+                            <img class="solutions__item-img" src="./images/vision6.jpg" alt="">
+                            <div class="solutions__item-content">
+                                <div class="solutions__item-title">
+                                    Видеонаблюдение в автосалоне
+                                </div>
+                                <div class="solutions__item-descr">Защита имущества, обеспечения безопасности
+                                    сотрудников, защиты от ответственности за несчастные случаи и оповещения торговых
+                                    представителей о прибытии клиента.
+                                </div>
+                                <button class="solutions__item-btn" type="button">Узнать больше</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="vision-about-info">
+                    <div class="vision__title">
+                        За многие годы работы на рынке систем безопасности мы набрались большого опыта в нашей сфере, мы
+                        выполняем любые задачи клиентов, а также успешно находим решения для нестандартных задач.
+                    </div>
+                    <div class="vision-about-info__wrapper">
+                        <img class="vision-about-info__img" src="./images/drone.png" alt="">
+                        <div class="vision-about-info__content">
+                            <div class="vision__text">Одно из основных преимуществ нашей компании заключается в наших
+                                специалистах. Квалифицированные инженеры и монтажники являются нашей гордостью. Все
+                                сотрудники проходят дополнительное обучение по повышению квалификации.
+                            </div>
+                            <br>
+                            <div class="vision__text">Мы постоянно следим за новинками в сфере безопасности для того,
+                                чтобы
+                                поддерживать вашу безопасность на должном уровне. Мы можем предложить вам выгодные цены
+                                на
+                                оборудование за счет закупки больших объемов у поставщиков по низким ценам.
+                            </div>
+                            <br>
+                            <div class="vision__text">Качество, надежность, гарантия на работы, квалификация сотрудников
+                                —
+                                именно это является нашим преимуществом перед другими компаниями. Мы ценим Вашу
+                                безопасность.</div>
+                        </div>
+                    </div>
+                </div>
+                <section class="vision-popular">
+                    <h2 class="vision-popular__title">Популярные товары</h2>
+                    <div class="vision-popular__wrapper">
+                        <div class="vision-popular__item">
+                            <img class="vision-popular__item-img" src="./images/vis1.jpg" alt="">
+                            <div class="vision-popular__item-content">
+                                <div class="vision-popular__item-title">Камера ST-2202</div>
+                                <div class="vision-popular__item-descr">Цветная AHD камера, Разрешение: 2MP (1080p), с
+                                    ИК подсветкой, Купольная...</div>
+                                <div class="vision-popular__item-price-wrapper">
+                                    <div class="vision-popular__item-price">1 400₽</div>
+                                    <a class="vision-popular__item-link" href="./catalog.html">Перейти в каталог</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vision-popular__item">
+                            <img class="vision-popular__item-img" src="./images/vis2.jpg" alt="">
+                            <div class="vision-popular__item-content">
+                                <div class="vision-popular__item-title">Камера ST-2202</div>
+                                <div class="vision-popular__item-descr">Цветная AHD камера, Разрешение: 2MP (1080p), с
+                                    ИК подсветкой, Купольная...</div>
+                                <div class="vision-popular__item-price-wrapper">
+                                    <div class="vision-popular__item-price">1 400₽</div>
+                                    <a class="vision-popular__item-link" href="./catalog.html">Перейти в каталог</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vision-popular__item">
+                            <img class="vision-popular__item-img" src="./images/vis3.jpg" alt="">
+                            <div class="vision-popular__item-content">
+                                <div class="vision-popular__item-title">Камера ST-2202</div>
+                                <div class="vision-popular__item-descr">Цветная AHD камера, Разрешение: 2MP (1080p), с
+                                    ИК подсветкой, Купольная...</div>
+                                <div class="vision-popular__item-price-wrapper">
+                                    <div class="vision-popular__item-price">1 400₽</div>
+                                    <a class="vision-popular__item-link" href="./catalog.html">Перейти в каталог</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="vision-steps">
+                    <h2 class="vision-steps__title">Сделаем всё как надо: 3 шага до безопасности бизнеса</h2>
+                    <div class="vision-steps__wrapper">
+                        <div class="vision-steps__item">
+                            <img class="vision-steps__item-img" src="./images/1.svg" alt="">
+                            <div class="vision-steps__item-content">
+                                <div class="vision-steps__item-title">Расчет проекта под ключ</div>
+                                <div class="vision-steps__item-descr">Персональный менеджер поможет подобрать
+                                    оптимальное
+                                    сочетание оборудования и функций видеонаблюдения под ваши задачи</div>
+                            </div>
+                        </div>
+                        <div class="vision-steps__item">
+                            <img class="vision-steps__item-img" src="./images/2.svg" alt="">
+                            <div class="vision-steps__item-content">
+                                <div class="vision-steps__item-title">Качественная установка</div>
+                                <div class="vision-steps__item-descr">Наши инженеры установят камеры, подключат
+                                    оборудование, протестируют и настроят так, как вам необходимо</div>
+                            </div>
+                        </div>
+                        <div class="vision-steps__item">
+                            <img class="vision-steps__item-img" src="./images/3.svg" alt="">
+                            <div class="vision-steps__item-content">
+                                <div class="vision-steps__item-title">Готово к использованию!</div>
+                                <div class="vision-steps__item-descr">У вас будет установлена система видеонаблюдения с
+                                    доступом в личный кабинет через приложение на смартфоне или веб-браузер на
+                                    компьютере
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="request">
+                    <div class="request__inner">
+                        <form class="request__form fadeInLeft" action="send.php">
+                            <label class="request__label" for="name">Имя</label>
+                            <input class="request__input" type="text" id="name" name="name"
+                                placeholder="Как к Вам обращатсья?" required>
+                            <label class="request__label" for="email">Почта</label>
+                            <input class="request__input" type="text" id="email" name="email" placeholder="email"
+                                required>
+                            <label class="request__label" for="message">Чем мы можем вам помочь?</label>
+                            <input class="request__input" type="text" id="message" name="message"
+                                placeholder="Мне нужно..." required>
+                            <div class="request__warning">Защита от спама reCAPTCHA <a href="#">Конфиденциальность</a> и
+                                <a href="#">Условия использования</a>
+                            </div>
+                            <button class="request__btn request__btn--orange">Оставить заявку</button>
+                        </form>
+                        <div class="request__content fadeInScale">
+                            <img class="request__content-img" src="./images/form-bg.png" alt="">
+                            <div class="request__content-inner">
+                                <h2 class="request__title"><span class="orange">Просто</span> оставьте заявку</h2>
+                                <h3 class="request__subtitle">и наши специалисты свяжутся с вами для консультации</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a href="./index.html"><img class="logo" src="./images/logo.png" alt=""></a>
+                </div>
+                <div class="footer__info">Мы 1с франчайзи, у нас есть возможность предоставить клиенту более
+                    выгодную
+                    цену на услуги по сравнению с другими компаниями.
+                </div>
+                <div class="footer__search">
+                    <input class="footer__search-input" type="text" placeholder="Поиск по сайту">
+                    <button class="footer__search-btn"><img src="./images/arrow-right-btn.png" alt=""></button>
+                </div>
+                <div class="footer__social">
+                    <a class="footer__social-item" href="#"><img src="./images/tg.png" alt=""></a>
+                    <a class="footer__social-item" href="#"><img src="./images/whatsApp.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer__menu-wrapper">
+                <div class="footer__menu">
+                    <div class="footer__menu-title">КАТЕГОРИИ</div>
+                    <nav class="footer__menu-links">
+                        <a href="./franchisee-about.html" class="footer__menu-link">1С: франчайзи</a>
+                        <a href="#" class="footer__menu-link">Системное администрирование</a>
+                        <a href="#" class="footer__menu-link">GPS мониторинг</a>
+                        <a href="#" class="footer__menu-link">Разработка сайтов</a>
+                        <a href="#" class="footer__menu-link">Битрикс 24</a>
+                        <a href="#" class="footer__menu-link">Видеонаблюдение</a>
+                        <a href="#" class="footer__menu-link">Учебный центр</a>
+                    </nav>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu-title">МАГАЗИН</div>
+                    <nav class="footer__menu-links">
+                        <a href="./franchisee-services.html" class="footer__menu-link">Услуги</a>
+                        <a href="./franchisee-stocks.html" class="footer__menu-link">Акции</a>
+                        <a href="./catalog.html" class="footer__menu-link">Продукты</a>
+                    </nav>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu-title">ПОДРОБНЕЕ</div>
+                    <nav class="footer__menu-links">
+                        <a href="./about.html" class="footer__menu-link">О компании</a>
+                        <a href="#" class="footer__menu-link">Вакансии</a>
+                        <a href="./contacts.html" class="footer__menu-link">Контакты</a>
+                        <a href="#" class="footer__menu-link">Клиентам</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="footer__copyright-inner">
+                © 2022 Компания «Аксиома». Все права защищены
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

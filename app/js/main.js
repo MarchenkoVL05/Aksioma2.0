@@ -93,6 +93,8 @@ window.addEventListener("DOMContentLoaded", () => {
   let consultationBtn = document.querySelector(".consultation__btn");
   let outsourceServicesBtn = document.querySelector(".outs-services-bg__btn");
 
+  let solutionVisionCard = document.querySelectorAll(".solutions__item-btn");
+
   function showPopup() {
     popupForm.style.display = "block";
     overlay.style.position = "fixed";
@@ -122,6 +124,13 @@ window.addEventListener("DOMContentLoaded", () => {
   if (outsourceServicesBtn) {
     outsourceServicesBtn.addEventListener("click", () => {
       showPopup();
+    });
+  }
+  if (solutionVisionCard) {
+    solutionVisionCard.forEach((item) => {
+      item.addEventListener("click", () => {
+        showPopup();
+      });
     });
   }
 

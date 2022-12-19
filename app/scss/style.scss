@@ -912,7 +912,7 @@ a {
     padding: 0 5px 10px 5px;
     margin-top: 10px;
     border: none;
-    border-bottom: 2px solid #444444;
+    border-bottom: 1px solid #c5c5c5;
     &:focus {
       outline: none;
     }
@@ -961,6 +961,10 @@ a {
       background: #87d869;
       background: linear-gradient(212deg, #87d869, #afc763);
     }
+    &--orange {
+      background: rgb(251, 120, 28);
+      background: linear-gradient(140deg, rgba(251, 120, 28, 1) 0%, rgba(217, 172, 23, 1) 100%);
+    }
   }
   &__content {
     position: relative;
@@ -986,6 +990,9 @@ a {
     }
     .light-green {
       color: #87d869;
+    }
+    .orange {
+      color: #fb781c;
     }
   }
   &__subtitle {
@@ -1326,6 +1333,8 @@ a {
 // Раздел GPS Мониторинг
 @import "./gps-about.scss";
 @import "./gps-possibility.scss";
+// Раздел Видеонаблюдение
+@import "./vision-about.scss";
 
 // Адаптив
 // О компании
@@ -1350,3 +1359,5 @@ a {
 // Раздел GPS Мониторинг
 @import "./media/gps-about-Media.scss";
 @import "./media/gps-possibility-Media.scss";
+// Раздел Видеонаблюдение
+@import "./media/vision-about-Media.scss";
