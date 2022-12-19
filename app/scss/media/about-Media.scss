@@ -1,15 +1,113 @@
+@media (max-width: 1140px) {
+  .about {
+    &__text {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    &__img {
+      max-height: 300px;
+    }
+    &__title {
+      font-size: 28px;
+      line-height: 35px;
+    }
+    &__subtitle {
+      font-size: 24px;
+      &--sm {
+        font-size: 22px;
+      }
+    }
+    &__list-item {
+      font-size: 18px;
+      line-height: 27px;
+    }
+    &__team {
+      max-height: 200px;
+    }
+    &__head-title {
+      &--lst {
+        font-size: 26px;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
 @media (max-width: 920px) {
   .about {
     &__title {
       font-size: 28px;
+    }
+    &__subtitle {
+      line-height: 30px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    &__head-title {
+      font-size: 30px;
+      &--lst {
+        font-size: 24px;
+      }
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 27px;
+    }
+    &__img {
+      max-height: 200px;
+    }
+    &__title {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    &__catalog {
+      width: 240px;
+      font-size: 18px;
+    }
+    &__subtitle {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    &__team {
+      max-height: 180px;
     }
   }
 }
 
 @media (max-width: 544px) {
   .about {
+    &__head-title {
+      &--lst {
+        font-size: 21px;
+      }
+    }
     &__title {
-      font-size: 24px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    &__text {
+      line-height: 25px;
+      span {
+        font-size: 18px;
+      }
+    }
+    &__img {
+      max-height: 120px;
+    }
+    &__subtitle {
+      font-size: 18px;
+    }
+    &__list-item {
+      margin-top: 5px;
+      img {
+        max-height: 18px;
+      }
+    }
+    &__team {
+      max-height: 100px;
     }
   }
 }

@@ -10,6 +10,11 @@
     color: #323232;
     padding-bottom: 15px;
     border-bottom: 1px solid #ededed;
+    &--lst {
+      font-family: "Exo 2";
+      margin-top: 50px;
+      font-size: 32px;
+    }
   }
   &__text {
     font-size: 22px;
@@ -22,8 +27,8 @@
   }
   &__img {
     display: block;
-    margin: 50px auto 0;
-    max-height: 200px;
+    margin: 30px auto 0;
+    max-height: 350px;
   }
   &__title {
     margin-top: 50px;
@@ -38,8 +43,12 @@
     margin-top: 50px;
     font-size: 28px;
     font-weight: 700;
-    line-height: 40px;
     color: #272727;
+    &--sm {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 24px;
+    }
   }
   &__catalog {
     width: 280px;
@@ -74,6 +83,12 @@
     &:hover::after {
       opacity: 1;
     }
+    &--contacts {
+      margin: 30px 0 30px 0;
+      &::after {
+        content: "Связаться с нами";
+      }
+    }
   }
 
   &__list {
@@ -82,12 +97,19 @@
   }
   &__list-item {
     font-size: 22px;
-    margin-top: 30px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     gap: 15px;
+    line-height: 35px;
     img {
-      max-height: 24px;
+      max-height: 22px;
     }
+  }
+
+  &__team {
+    display: block;
+    margin: 40px auto 0;
+    max-height: 300px;
   }
 }
