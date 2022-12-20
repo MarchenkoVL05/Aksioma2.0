@@ -1,0 +1,116 @@
+.visex {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  &__inner {
+    margin-top: 50px;
+  }
+  &__hero {
+    background-image: url(../images/vision-hero-bg.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    &-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    &__hero-content {
+      position: relative;
+    }
+    &-img {
+      max-height: 500px;
+    }
+    &-subtitle {
+      font-weight: 600;
+      font-size: 24px;
+      color: #464646;
+      font-family: "Exo 2";
+    }
+    &-title {
+      font-family: "Exo 2";
+      font-size: 48px;
+      font-weight: 700;
+      color: #343434;
+    }
+    &-descr {
+      margin-top: 15px;
+      color: #343434;
+      max-width: 700px;
+    }
+    &-content {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #d4d4d4;
+    }
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    padding: 10px 15px;
+    color: #f6f6f6;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 500;
+    background: rgb(251, 120, 28);
+    background: linear-gradient(140deg, rgba(251, 120, 28, 1) 0%, rgba(217, 172, 23, 1) 100%);
+    box-shadow: 9px 7px 10px 3px rgb(189 186 186 / 75%);
+    &--lg {
+      font-size: 22px;
+      width: 280px;
+      margin: 80px auto 0;
+    }
+  }
+}
+
+.examples {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+  &__title {
+    font-family: "Exo 2";
+    font-size: 26px;
+    text-align: center;
+  }
+  &__wrapper {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 30px;
+    border: 1px solid #f6f6f6;
+    position: relative;
+    transition: 0.3s all;
+    img {
+      max-width: 100%;
+    }
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+  }
+  &__item-img-sm {
+    transform: scale(0.7);
+  }
+  &__item-descr {
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+  }
+}

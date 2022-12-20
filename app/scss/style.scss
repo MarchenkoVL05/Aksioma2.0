@@ -889,7 +889,6 @@ a {
   &__inner {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1335,6 +1334,7 @@ a {
 @import "./gps-possibility.scss";
 // Раздел Видеонаблюдение
 @import "./vision-about.scss";
+@import "./vision-examples.scss";
 
 // Адаптив
 // О компании
@@ -1361,3 +1361,4 @@ a {
 @import "./media/gps-possibility-Media.scss";
 // Раздел Видеонаблюдение
 @import "./media/vision-about-Media.scss";
+@import "./media/vision-examples-Media.scss";
