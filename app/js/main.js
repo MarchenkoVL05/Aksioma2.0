@@ -89,11 +89,8 @@ window.addEventListener("DOMContentLoaded", () => {
   // Попап формы обратной связи
   let popupForm = document.querySelector(".popupForm");
   let popupClose = document.querySelector(".popupForm__close");
-  let dealBtn = document.querySelector(".deal__btn");
-  let consultationBtn = document.querySelector(".consultation__btn");
-  let outsourceServicesBtn = document.querySelector(".outs-services-bg__btn");
 
-  let solutionVisionCard = document.querySelectorAll(".solutions__item-btn");
+  let openPopup = document.querySelectorAll(".open-popup");
 
   function showPopup() {
     popupForm.style.display = "block";
@@ -102,35 +99,19 @@ window.addEventListener("DOMContentLoaded", () => {
     document.querySelector("body").style.overflowY = "hidden";
   }
 
+  if (openPopup && popupClose) {
+    openPopup.forEach((item) => {
+      item.addEventListener("click", () => {
+        showPopup();
+      });
+    });
+  }
+
   if (popupForm && popupClose) {
     popupClose.addEventListener("click", () => {
       popupForm.style.display = "none";
       overlay.style.display = "none";
       document.querySelector("body").style.overflowY = "visible";
-    });
-  }
-
-  if (dealBtn) {
-    dealBtn.addEventListener("click", () => {
-      showPopup();
-    });
-  }
-
-  if (consultationBtn) {
-    consultationBtn.addEventListener("click", () => {
-      showPopup();
-    });
-  }
-  if (outsourceServicesBtn) {
-    outsourceServicesBtn.addEventListener("click", () => {
-      showPopup();
-    });
-  }
-  if (solutionVisionCard) {
-    solutionVisionCard.forEach((item) => {
-      item.addEventListener("click", () => {
-        showPopup();
-      });
     });
   }
 

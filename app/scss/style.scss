@@ -452,11 +452,11 @@ a {
   }
   &__menu {
     display: none;
+    position: fixed;
     overflow-y: scroll;
     padding: 30px 15px;
     width: 500px;
     height: 100%;
-    position: absolute;
     top: 0;
     right: 0;
     z-index: 3;
@@ -533,7 +533,7 @@ a {
 
 .overlay {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
@@ -884,11 +884,12 @@ a {
 }
 
 .request {
-  padding: 80px 15px 0;
+  padding: 80px 0;
   min-height: 550px;
   &__inner {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -964,6 +965,10 @@ a {
       background: rgb(251, 120, 28);
       background: linear-gradient(140deg, rgba(251, 120, 28, 1) 0%, rgba(217, 172, 23, 1) 100%);
     }
+    &--purple {
+      background-color: #ac73f9;
+      background: linear-gradient(140deg, #ac73f9 0%, #7773f9 100%);
+    }
   }
   &__content {
     position: relative;
@@ -993,6 +998,9 @@ a {
     .orange {
       color: #fb781c;
     }
+    .purple {
+      color: #ac73f9;
+    }
   }
   &__subtitle {
     margin-top: 5px;
@@ -1004,7 +1012,7 @@ a {
 
 .footer {
   flex: 0 0 auto;
-  padding: 40px 15px 120px;
+  padding: 40px 0 120px;
   min-height: 430px;
   background: #ffffff;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
@@ -1013,8 +1021,10 @@ a {
     max-width: 1400px;
     min-height: 350px;
     margin: 0 auto;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
   }
   &__info {
     margin-top: 22px;
@@ -1335,6 +1345,8 @@ a {
 // Раздел Видеонаблюдение
 @import "./vision-about.scss";
 @import "./vision-examples.scss";
+// Раздел Учебный центр
+@import "./school-about.scss";
 
 // Адаптив
 // О компании
@@ -1362,3 +1374,5 @@ a {
 // Раздел Видеонаблюдение
 @import "./media/vision-about-Media.scss";
 @import "./media/vision-examples-Media.scss";
+// Раздел Учебный центр
+@import "./media/school-about-Media.scss";

@@ -1,0 +1,114 @@
+@media (max-width: 1140px) {
+  .school {
+    &__hero-img {
+      max-height: 320px;
+    }
+    &__hero-title {
+      font-size: 42px;
+    }
+    &__tasks-item-img {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    &__tasks {
+      margin-top: 50px;
+      font-size: 28px;
+    }
+    &__tasks-item-descr {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    &__tasks-item-img {
+      max-height: 60px;
+    }
+  }
+  .school__info {
+    &-text {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .school {
+    &__hero {
+      flex-direction: column-reverse;
+      gap: 30px;
+    }
+    &__hero-title {
+      font-size: 28px;
+    }
+    &__hero-descr {
+      font-size: 18px;
+      line-height: 25px;
+    }
+    &__info-text {
+      font-size: 18px;
+      line-height: 25px;
+    }
+    &__tasks-wrap {
+      margin-top: 30px;
+      gap: 25px;
+    }
+    &__tasks-title {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .school {
+    &__info {
+      flex-direction: column;
+    }
+    &__tasks-item {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__tasks-item-descr {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media (max-width: 544px) {
+  .school {
+    &__hero-img {
+      max-height: 170px;
+    }
+    &__hero-title {
+      font-size: 24px;
+    }
+    &__hero-descr {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &__hero-btn {
+      font-size: 16px;
+    }
+    &__info {
+      &-img {
+        max-height: 200px;
+      }
+      &-text {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      &-btn {
+        font-size: 16px;
+      }
+    }
+    &__tasks {
+      margin-top: 30px;
+      &-title {
+        font-size: 18px;
+      }
+      &-item-descr {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}
