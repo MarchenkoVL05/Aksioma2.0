@@ -212,4 +212,14 @@ window.addEventListener("DOMContentLoaded", () => {
       otsSliderLine.style.left = `${e.layerX}px`;
     });
   }
+
+  // Куки предупреждение
+  let cookieNotification = document.querySelector(".cookie-notification");
+  let cookieNotificationBtn = document.querySelector(".cookie-notification__btn");
+
+  if (cookieNotification && cookieNotificationBtn) {
+    cookieNotificationBtn.addEventListener("click", () => {
+      cookieNotification.style.display = "none";
+    });
+  }
 });
