@@ -1,4 +1,6 @@
+import { checkCookies } from "./cookie.js";
 window.addEventListener("DOMContentLoaded", () => {
+  checkCookies();
   // Анимация появления слева
   let fadeInLeft = document.querySelectorAll(".fadeInLeft");
   let fadeInTop = document.querySelectorAll(".fadeInTop");
