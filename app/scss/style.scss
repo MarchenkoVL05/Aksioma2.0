@@ -971,6 +971,10 @@ a {
       background-color: #ac73f9;
       background: linear-gradient(140deg, #ac73f9 0%, #7773f9 100%);
     }
+    &--blue {
+      background: rgb(89, 188, 237);
+      background: linear-gradient(161deg, #59bced 0%, #7391f9 100%);
+    }
   }
   &__content {
     position: relative;
@@ -1002,6 +1006,9 @@ a {
     }
     .purple {
       color: #ac73f9;
+    }
+    .blue {
+      color: #59bced;
     }
   }
   &__subtitle {
@@ -1384,6 +1391,8 @@ a {
 // Раздел Видеонаблюдение
 @import "./vision-about.scss";
 @import "./vision-examples.scss";
+// Раздел Битрикс24
+@import "./bitrix-about.scss";
 // Раздел Учебный центр
 @import "./school-about.scss";
 
@@ -1413,5 +1422,6 @@ a {
 // Раздел Видеонаблюдение
 @import "./media/vision-about-Media.scss";
 @import "./media/vision-examples-Media.scss";
+@import "./media/bitrix-about-Media.scss";
 // Раздел Учебный центр
 @import "./media/school-about-Media.scss";
