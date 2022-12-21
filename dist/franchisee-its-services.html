@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Шрифты -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;500;600;700;800;900&family=Inter:wght@100;300;400;500;800;900&family=Montserrat:wght@100;300;400;500;600;700;900&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Аксиома: 1C Франчайзи</title>
+</head>
+
+<body class="main-body">
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-inner">
+                <div class="header__top-left">
+                    <button class="header__top-btn">Заказать звонок</button>
+                    <button class="header__top-search"><img src="./images/search.png" alt="Поиск"></button>
+                </div>
+                <div class="header__top-right">
+                    <a class="header__top-link" href="#"><img src="./images/cart.png" alt="Корзина"></a>
+                    <a class="header__top-link header__top-link--profile" href="#">Владимир Марченко<img
+                            src="./images/user.png" alt=""></a>
+                    <div class="header__top-panel">
+                        <img src="./images/user.png" alt="">
+                        <a href="#">Перейти в профиль</a>
+                        <button class="header__top-panel-btn">Выйти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__inner">
+            <div class="header__info">
+                <a href="./index.html"><img class="logo" src="./images/logo.png" alt=""></a>
+                <nav class="header__menu">
+                    <a class="header__menu-item" href="./about.html">О компании</a>
+                    <a class="header__menu-item" href="#">Вакансии</a>
+                    <a class="header__menu-item" href="#">Программы</a>
+                    <a class="header__menu-item" href="contacts.html">Контакты</a>
+                    <a class="header__menu-item" href="#">Клиентам</a>
+                </nav>
+            </div>
+            <div class="header__contacts">
+                <div class="header__contacts-item">
+                    <a href="#">
+                        <img src="./images/Phone.png" alt="">+7 (3537) 30-70-90
+                    </a>
+                </div>
+                <div class="header__contacts-item">
+                    <a href="./contacts.html">
+                        <img src="./images/map.png" alt=""> Орск, ул.Ленинского Комсомола, 2А
+                    </a>
+                </div>
+                <div class="header__contacts-item">
+                    <a href="#">
+                        <img src="./images/sms.png" alt=""> 1с@aksioma.pro
+                    </a>
+                </div>
+            </div>
+            <div class="burger">
+                <img class="burger__icon" src="./images/menu.png" alt="">
+                <div class="burger__menu">
+                    <div class="burger__logo">
+                        <img class="logo" src="./images/logo.png" alt="">
+                    </div>
+                    <div class="burger__close"><img src="./images/close.png" alt=""></div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Основное меню</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./about.html">О компании</a>
+                            <a class="burger__menu-item" href="#">Вакансии</a>
+                            <a class="burger__menu-item" href="#">Программы</a>
+                            <a class="burger__menu-item" href="contacts.html">Контакты</a>
+                            <a class="burger__menu-item" href="#">Клиентам</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Сис. администрирование</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./outsource-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="./outsource-services.html">Услуги</a>
+                            <a class="burger__menu-item" href="./outsource-feedback.html">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">1с франчайзи</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./franchisee-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="./franchisee-services.html">Услуги</a>
+                            <a class="burger__menu-item" href="./franchisee-its-services.html">Сервисы</a>
+                            <a class="burger__menu-item" href="./franchisee-stocks.html">Акции</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">GPS мониторинг</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./gps-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="./catalog.html">Услуги</a>
+                            <a class="burger__menu-item" href="./gps-possibility-1.html">Возможности</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Разработка сайтов</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="#">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="#">Услуги</a>
+                            <a class="burger__menu-item" href="#">Отзывы и проекты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Учебный центр</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./school-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Битрикс 24</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./bitrix-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="./bitrix-services.html">Услуги</a>
+                        </nav>
+                    </div>
+                    <div class="burger__item">
+                        <div class="burger__menu-head">Видеонаблюдение</div>
+                        <nav class="burger__menu-items">
+                            <a class="burger__menu-item" href="./vision-about.html">О направлении</a>
+                            <a class="burger__menu-item" href="./catalog.html">Продукты</a>
+                            <a class="burger__menu-item" href="./vision-examples.html">Трансляции</a>
+                        </nav>
+                    </div>
+                    <div class="burger__profile">
+                        <div class="burger__profile-inner">
+                            <div class="burger__profile-img">
+                                <img src="./images/user.png" alt="">
+                            </div>
+                            <div class="burger__profile-name"><a href="#">Владимир Марченко</a></div>
+                        </div>
+                        <div class="burger__logOut">
+                            <a href="#">
+                                <div class="burger__logOut-text">Выйти</div>
+                                <img class="burger__logOut-img" src="./images/logout.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay"></div>
+            <div class="popupForm">
+                <div class="popupForm__close">
+                    <img src="./images/close-popup.png" alt="">
+                </div>
+                <div class="popupForm__content">
+                    <div class="popupForm__title">Заказать консультацию</div>
+                    <form class="popupForm__form" action="">
+                        <label class="popupForm__label" for="name">ФИО<span>*</span></label>
+                        <input class="popupForm__input" name="name" type="text" placeholder="Иванов Иван Иванович..."
+                            required>
+                        <label class="popupForm__label" for="phone">Телефон<span>*</span></label>
+                        <input class="popupForm__input" name="phone" type="text" placeholder="+7 800 555 35 35..."
+                            required>
+                        <label class="popupForm__label" for="email">Почта<span>*</span></label>
+                        <input class="popupForm__input" name="email" type="text" placeholder="ivanov@mail.com..."
+                            required>
+                        <label class="popupForm__label" for="message">Чем мы можем Вам помочь?<span></span></label>
+                        <input class="popupForm__input" name="message" type="text" placeholder="Нужна консультация...">
+                        <p class="popupForm__info">ознакомлен(-а) с <a href="#">политикой в области обработки
+                                персональных данных</a>, все условия принимаю</p>
+                        <p class="popupForm__info">Защита от спама reCAPTCHA <a
+                                href="https://policies.google.com/privacy">Конфиденциальность</a> и <a
+                                href="https://policies.google.com/terms">Условия
+                                использования</a></p>
+                        <button class="popupForm__btn">Заказать консультацию</button>
+                    </form>
+                </div>
+            </div>
+            <div class="cookie-notification">
+                <img class="cookie-notification__img" src="./images/cookie.png" alt="">
+                <div class="cookie-notification__text">
+                    Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookie, которые обеспечивают
+                    правильную работу сайта. Благодаря им мы улучшаем сайт, обслуживание и товары.
+                </div>
+                <button class="cookie-notification__btn">Понятно</button>
+            </div>
+        </div>
+    </header>
+    <div class="header__bottom">
+        <nav class="header__bottom-nav">
+            <div class="link-container">
+                <div class="header__bottom-link">Системное администрирование</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./outsource-about.html">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="./outsource-services.html">Услуги</a>
+                    <a href="./outsource-feedback.html">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">1С Франчайзи</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./franchisee-about.html">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="./franchisee-services.html">Услуги</a>
+                    <a href="./franchisee-its-services.html">Сервисы</a>
+                    <a href="./franchisee-stocks.html">Акции</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">GPS Мониторинг</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./gps-about.html">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="./catalog.html">Услуги</a>
+                    <a href="./gps-possibility-1.html">Возможности</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Разработка сайтов</div>
+                <div class="header__bottom-link-menu">
+                    <a href="#">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Отзывы и проекты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Учебный центр</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./school-about.html">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Битрикс24</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./bitrix-about.html">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="./bitrix-services.html">Услуги</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link">Видеонаблюдение</div>
+                <div class="header__bottom-link-menu">
+                    <a href="./vision-about.html">О направлении</a>
+                    <a href="./catalog.html">Продукты</a>
+                    <a href="./vision-examples.html">Трансляции</a>
+                </div>
+            </div>
+            <div class="link-container">
+                <div class="header__bottom-link-btn-wrapper">
+                    <button class="header__bottom-link-btn"><span>&#x25CF;&#x25CF;&#x25CF;</span> Ещё</button>
+                    <div class="header__bottom-link-popup">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main class="content">
+        <div class="fr-its-services">
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__list-item"><a href="./index.html">Главная</a></li>
+                    <li class="breadcrumbs__list-item"><a href="./franchisee-about.html">1С Франчайзи</a></li>
+                    <li class="breadcrumbs__list-item"><a href="./franchisee-services.html">Сервисы 1С: ИТС</a></li>
+                </ul>
+            </div>
+            <div class="fr-its-services__inner">
+                <a class="fr-its-services__item" href="./its-service-1.html">
+                    <img class="fr-its-services__item-img" src="./images/otchetnost.png"></img>
+                    <div class="fr-its-services__item-title">1С-Отчетность</div>
+                    <div class="fr-its-services__item-descr">Подготовка и сдача регламентированной отчетности из
+                        программ
+                        «1С» во все контролирующие органы: ФНС, ПФР, ФСС, Росстат, Росалкогольрегулирование,
+                        Росприроднадзор и ФТС</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/kontr-agent.png"></img>
+                    <div class="fr-its-services__item-title">1С:Контрагент</div>
+                    <div class="fr-its-services__item-descr">Автоматическое заполнение реквизитов контрагентов в
+                        различных документах и быстрая проверка информации о контрагентах</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/spark.png"></img>
+                    <div class="fr-its-services__item-title">1СПАРК Риски</div>
+                    <div class="fr-its-services__item-descr">Оценка надежности и мониторинг контрагентов в программах 1С
+                        для принятия взвешенных решений о сотрудничестве и минимизации налоговых рисков</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/edo.png"></img>
+                    <div class="fr-its-services__item-title">1С-ЭДО</div>
+                    <div class="fr-its-services__item-descr">Обмен счетами-фактурами и другими юридически значимыми
+                        документами с поставщиками, покупателями и прочими контрагентами в электронной форме из программ
+                        1С</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/informacionaya-systema.png"></img>
+                    <div class="fr-its-services__item-title">Информационная система 1С:ИТС</div>
+                    <div class="fr-its-services__item-descr">Справочники, консультации по законодательству, методики и
+                        инструкции по работе с программами «1С:Предприятия» (its.1c.ru)</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/direct-bank.png"></img>
+                    <div class="fr-its-services__item-title">1С:ДиректБанк</div>
+                    <div class="fr-its-services__item-descr">Отправка платежей и получение выписок прямо из программ 1С,
+                        без переключения в «Клиент-банк»</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/link.png"></img>
+                    <div class="fr-its-services__item-title">1С:Линк</div>
+                    <div class="fr-its-services__item-descr">Безопасный удаленный доступ через Интернет к программам 1С,
+                        установленным на вашем компьютере</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/oblachniy-archiv.png"></img>
+                    <div class="fr-its-services__item-title">1С:Облачный архив</div>
+                    <div class="fr-its-services__item-descr">Автоматическое резервное копирование информационных баз в
+                        облачное хранилище</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/tovari.png"></img>
+                    <div class="fr-its-services__item-title">1С-Товары</div>
+                    <div class="fr-its-services__item-descr">Прогноз спроса, автоматический заказ и управление
+                        ассортиментом розничного магазина</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/nomenklatura.png"></img>
+                    <div class="fr-its-services__item-title">
+                        1С:Номенклатура</div>
+                    <div class="fr-its-services__item-descr">Единый каталог описаний товаров в «1С:Предприятии 8»</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/business-set.png"></img>
+                    <div class="fr-its-services__item-title">
+                        1С:Бизнес-сеть. Торговая площадка</div>
+                    <div class="fr-its-services__item-descr">Торговая площадка в программах «1С:Предприятие» для
+                        поставщиков и покупателей (закупщиков)</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/lectoriy.png"></img>
+                    <div class="fr-its-services__item-title">
+                        1С:Лекторий</div>
+                    <div class="fr-its-services__item-descr">Семинары по законодательству и его отражению в программах
+                        «1С:Предприятия» — в формате онлайн-трансляций и видеозаписей.</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/connect.png"></img>
+                    <div class="fr-its-services__item-title">
+                        1С-Коннект</div>
+                    <div class="fr-its-services__item-descr">Корпоративный чат и оперативная поддержка пользователей
+                        программ 1С</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/sverka.png"></img>
+                    <div class="fr-its-services__item-title">1С:Сверка</div>
+                    <div class="fr-its-services__item-descr">Автоматическая сверка счетов-фактур с контрагентами</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/ofd.png"></img>
+                    <div class="fr-its-services__item-title">1С-ОФД</div>
+                    <div class="fr-its-services__item-descr">Подключение к операторам фискальных данных (ОФД) в
+                        соответствии с законом 54-ФЗ, онлайн-передача фискальных данных в ФНС и ЦРПТ (маркировка
+                        товаров)</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/predpiyatie-cherez-internet.png"></img>
+                    <div class="fr-its-services__item-title">1С:Предприятие через Интернет (1С:Фреш)</div>
+                    <div class="fr-its-services__item-descr">1С:Фреш - сервис для работы с популярными программами 1С
+                        через интернет</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/podpis.png"></img>
+                    <div class="fr-its-services__item-title">1С:Подпись</div>
+                    <div class="fr-its-services__item-descr">Электронная подпись для обмена юридически значимыми
+                        электронными документами, отправки регламентированной отчетности в контролирующие органы и
+                        работы с государственными информационными системами</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/edo-bez-eleckroniy-podpisi.png"></img>
+                    <div class="fr-its-services__item-title">ЭДО без электронной подписи для участников 1С:Бизнес-сеть
+                    </div>
+                    <div class="fr-its-services__item-descr">Обмен электронными документами без электронной подписи
+                        между пользователями программ 1С</div>
+                </a>
+                <!--  -->
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/kabinet-sotrudnika.png"></img>
+                    <div class="fr-its-services__item-title">
+                        1С:Кабинет сотрудника
+                    </div>
+                    <div class="fr-its-services__item-descr">Мобильное взаимодействие сотрудников и бухгалтерии по
+                        кадровым вопросам</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/riteil-checker.png"></img>
+                    <div class="fr-its-services__item-title">1C-Ритейл Чекер
+                    </div>
+                    <div class="fr-its-services__item-descr">Рекомендации по управлению ассортиментом розничного
+                        магазина на основе статистики продаж и прогноза спроса</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/mag1c.png"></img>
+                    <div class="fr-its-services__item-title">mag1c
+                    </div>
+                    <div class="fr-its-services__item-descr">Автоматическое создание веб-витрины бизнеса из программы 1С
+                        для приема заказов или старта продаж через интернет</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/otvechaet-auditor.png"></img>
+                    <div class="fr-its-services__item-title">Отвечает аудитор
+                    </div>
+                    <div class="fr-its-services__item-descr">Персональные письменные консультации от экспертов,
+                        аудиторов и методистов «1С» по вопросам бухгалтерского, налогового и кадрового учета</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/dostavka.png"></img>
+                    <div class="fr-its-services__item-title">1С:Доставка
+                    </div>
+                    <div class="fr-its-services__item-descr">Оформление доставки грузов по России и за границу из
+                        программ 1С</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/mdlp.png"></img>
+                    <div class="fr-its-services__item-title">1С:МДЛП
+                    </div>
+                    <div class="fr-its-services__item-descr">Подключение к системе маркировки Честный ЗНАК и передача
+                        данных о движении лекарственных препаратов в ФГИС МДЛП</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/taksom.png"></img>
+                    <div class="fr-its-services__item-title">
+                        1С-Такском
+                    </div>
+                    <div class="fr-its-services__item-descr">Обмен счетами-фактурами и другими юридически значимыми
+                        документами с поставщиками, покупателями и прочими контрагентами в электронной форме из программ
+                        1С</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/etp.png"></img>
+                    <div class="fr-its-services__item-title">1С-ЭТП
+                    </div>
+                    <div class="fr-its-services__item-descr">Электронные подписи для участия в электронных торгах и
+                        работы на государственных порталах</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/fin-control.png"></img>
+                    <div class="fr-its-services__item-title">1С-Финконтроль
+                    </div>
+                    <div class="fr-its-services__item-descr">Внутренний контроль и автоматическая проверка правильности
+                        ведения учета в бюджетных и автономных учреждениях</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/umi.png"></img>
+                    <div class="fr-its-services__item-title">1C-UMI
+                    </div>
+                    <div class="fr-its-services__item-descr">Готовые сайты для всех типов бизнеса: для специалистов,
+                        компаний, а также лендинги и интернет-магазины</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/epd.png"></img>
+                    <div class="fr-its-services__item-title">1С-ЭПД
+                    </div>
+                    <div class="fr-its-services__item-descr">Обмен транспортными накладными и другими перевозочными
+                        документами в электронном виде</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/sbp.png"></img>
+                    <div class="fr-its-services__item-title">1С:СБП
+                    </div>
+                    <div class="fr-its-services__item-descr">Способ принимать безналичную оплату от покупателей без
+                        пластиковых карт и эквайринга</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/izmenenie-svedeniy.png"></img>
+                    <div class="fr-its-services__item-title">1С:Изменение сведений
+                    </div>
+                    <div class="fr-its-services__item-descr">Подготовка и отправка в ФНС пакета документов для внесения
+                        изменений в ЕГРЮЛ/ЕГРИП</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/u-kassa.png"></img>
+                    <div class="fr-its-services__item-title">ЮKassa
+                    </div>
+                    <div class="fr-its-services__item-descr">Прием платежей через сервис ЮKassa в программах 1С:
+                        выставление счетов и получения уведомлений об оплатах</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/fin-otchetnost.png"></img>
+                    <div class="fr-its-services__item-title">1С:ФинОтчетность
+                    </div>
+                    <div class="fr-its-services__item-descr">Подготовка и отправка в банк финансовой отчетности заемщика
+                    </div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/lizing.png"></img>
+                    <div class="fr-its-services__item-title">1С:Лизинг
+                    </div>
+                    <div class="fr-its-services__item-descr">Поиск предложений от лизинговых компаний в программах 1С и
+                        автоматическое формирование заявки и пакета документов</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/credit.png"></img>
+                    <div class="fr-its-services__item-title">1С:Кредит
+                    </div>
+                    <div class="fr-its-services__item-descr">Поиск кредитных предложений в программах 1С и
+                        автоматическое формирование заявки и пакета документов</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/smartway.png"></img>
+                    <div class="fr-its-services__item-title">
+                        Smartway
+                    </div>
+                    <div class="fr-its-services__item-descr">Организация командировок и автоматическое создание
+                        бухгалтерских и кадровых документов в программах 1С</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/module-edi.png"></img>
+                    <div class="fr-its-services__item-title">Модуль 1C:EDI
+                    </div>
+                    <div class="fr-its-services__item-descr">EDI-обмен с торговыми партнерами, автоматизация цепочек
+                        заказов и поставок продукции</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img"
+                        src="./images/raspoznavanie-pervichnih-documentyrov.png"></img>
+                    <div class="fr-its-services__item-title">1С:Распознавание первичных документов
+                    </div>
+                    <div class="fr-its-services__item-descr">Автоматическое распознавание и создание первичных
+                        документов в программе 1С</div>
+                </a>
+                <a class="fr-its-services__item" href="#">
+                    <img class="fr-its-services__item-img" src="./images/courier.png"></img>
+                    <div class="fr-its-services__item-title">1С:Курьер
+                    </div>
+                    <div class="fr-its-services__item-descr">Оформление курьерской доставки по городу из программ 1С
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a href="./index.html"><img class="logo" src="./images/logo.png" alt=""></a>
+                </div>
+                <div class="footer__info">Мы 1с франчайзи, у нас есть возможность предоставить клиенту более
+                    выгодную
+                    цену на услуги по сравнению с другими компаниями.
+                </div>
+                <div class="footer__search">
+                    <input class="footer__search-input" type="text" placeholder="Поиск по сайту">
+                    <button class="footer__search-btn"><img src="./images/arrow-right-btn.png" alt=""></button>
+                </div>
+                <div class="footer__social">
+                    <a class="footer__social-item" href="#"><img src="./images/tg.png" alt=""></a>
+                    <a class="footer__social-item" href="#"><img src="./images/whatsApp.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer__menu-wrapper">
+                <div class="footer__menu">
+                    <div class="footer__menu-title">КАТЕГОРИИ</div>
+                    <nav class="footer__menu-links">
+                        <a href="./franchisee-about.html" class="footer__menu-link">1С: франчайзи</a>
+                        <a href="./outsource-about.html" class="footer__menu-link">Системное администрирование</a>
+                        <a href="./gps-about.html" class="footer__menu-link">GPS мониторинг</a>
+                        <a href="#" class="footer__menu-link">Разработка сайтов</a>
+                        <a href="./bitrix-about.html" class="footer__menu-link">Битрикс 24</a>
+                        <a href="./vision-about.html" class="footer__menu-link">Видеонаблюдение</a>
+                        <a href="#" class="footer__menu-link">Учебный центр</a>
+                    </nav>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu-title">МАГАЗИН</div>
+                    <nav class="footer__menu-links">
+                        <a href="./franchisee-services.html" class="footer__menu-link">Услуги</a>
+                        <a href="./franchisee-stocks.html" class="footer__menu-link">Акции</a>
+                        <a href="#" class="footer__menu-link">Продукты</a>
+                    </nav>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu-title">ПОДРОБНЕЕ</div>
+                    <nav class="footer__menu-links">
+                        <a href="./about.html" class="footer__menu-link">О компании</a>
+                        <a href="#" class="footer__menu-link">Вакансии</a>
+                        <a href="./contacts.html" class="footer__menu-link">Контакты</a>
+                        <a href="#" class="footer__menu-link">Клиентам</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="footer__copyright-inner">
+                © 2022 Компания «Аксиома». Все права защищены
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>
