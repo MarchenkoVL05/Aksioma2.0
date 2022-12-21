@@ -236,6 +236,16 @@
   }
 }
 
+@media (max-width: 768px) {
+  .cookie-notification {
+    flex-direction: column;
+    gap: 10px;
+    &__img {
+      max-height: 50px;
+    }
+  }
+}
+
 @media (max-width: 680px) {
   .popupForm {
     width: 100%;
@@ -392,6 +402,10 @@
         height: 15px;
       }
     }
+    &__content {
+      position: relative;
+      top: 10px;
+    }
     &__form {
       margin-top: 15px;
     }
@@ -406,6 +420,12 @@
       width: fit-content;
       height: 50px;
       padding: 10px 14px;
+    }
+  }
+
+  .cookie-notification {
+    &__text {
+      line-height: 20px;
     }
   }
 }

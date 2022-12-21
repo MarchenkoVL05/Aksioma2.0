@@ -644,6 +644,8 @@ a {
     transform: rotateY(-180deg) translateY(-50%);
     position: absolute;
     top: 50%;
+    max-height: 80%;
+    overflow-y: auto;
   }
   &__item:hover {
     -webkit-transform: rotateY(180deg);
@@ -1220,7 +1222,7 @@ a {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  padding: 58px 36px;
+  padding: 50px 36px;
   width: 538px;
   max-height: 100%;
   background: #ffffff;
@@ -1321,7 +1323,8 @@ a {
 
 .cookie-notification {
   padding: 15px 20px;
-  width: 70%;
+  width: 80%;
+  max-width: 1400px;
   position: fixed;
   top: 0;
   left: 50%;

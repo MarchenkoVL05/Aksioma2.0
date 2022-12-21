@@ -222,4 +222,24 @@ window.addEventListener("DOMContentLoaded", () => {
       cookieNotification.style.display = "none";
     });
   }
+
+  // Трансляции
+  let frameLinks = document.querySelectorAll(".examples__item-link");
+
+  frameLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (e.target.classList.contains("examples__item")) {
+        return;
+      }
+      let frame = e.target.parentNode.nextElementSibling;
+      frame.style.display = "block";
+      overlay.style.display = "block";
+      document.querySelector("body").style.overflowY = "hidden";
+      overlay.addEventListener("click", () => {
+        frame.style.display = "none";
+        document.querySelector("body").style.overflowY = "vissible";
+      });
+    });
+  });
 });

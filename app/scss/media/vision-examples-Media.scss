@@ -57,6 +57,10 @@
   .visex__hero-inner {
     flex-direction: column-reverse;
   }
+  .examples__frame {
+    width: 95vw;
+    height: 40vh;
+  }
 }
 
 @media (max-width: 544px) {
