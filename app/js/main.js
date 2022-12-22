@@ -279,4 +279,24 @@ window.addEventListener("DOMContentLoaded", () => {
       });
     });
   });
+
+  // FAQ в Разработке сайтов
+  let openQuestion = document.querySelectorAll(".web-faq__item-check");
+  if (openQuestion) {
+    openQuestion.forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        let answer;
+        let node;
+        if (e.target.classList.contains("web-faq__item-check")) {
+          node = e.target.nextElementSibling;
+        } else {
+          node = e.target.parentNode.nextElementSibling;
+        }
+
+        answer = node.querySelector(".web-faq__item-text");
+
+        answer.classList.toggle("web-faq__item-text--hide");
+      });
+    });
+  }
 });
