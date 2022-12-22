@@ -33,14 +33,14 @@ a {
 .fadeInLeft {
   position: relative;
   left: -50px;
-  transition: 0.7s all;
+  transition: 0.6s all;
   opacity: 0;
 }
 
 .fadeInTop {
   position: relative;
   top: -50px;
-  transition: 0.7s all;
+  transition: 0.6s all;
   opacity: 0;
 }
 
@@ -1394,6 +1394,7 @@ a {
 // Раздел Битрикс24
 @import "./bitrix-about.scss";
 @import "./bitrix-services.scss";
+@import "./bitrix-service.scss";
 // Раздел Учебный центр
 @import "./school-about.scss";
 
@@ -1424,5 +1425,8 @@ a {
 @import "./media/vision-about-Media.scss";
 @import "./media/vision-examples-Media.scss";
 @import "./media/bitrix-about-Media.scss";
+// Раздел Битрикс24
+@import "./media/bitrix-services-Media.scss";
+@import "./media/bitrix-service-Media.scss";
 // Раздел Учебный центр
 @import "./media/school-about-Media.scss";

@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+  .bx-service__title {
+    font-size: 24px;
+  }
+  .bx-service__descr {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .bx-service__item-title {
+    font-size: 22px;
+  }
+  .bx-service__item-text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .bx-service__item-list-item {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .bx-service__item-btn {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 544px) {
+  .bx-service__inner {
+    margin-top: 35px;
+  }
+  .bx-service__title {
+    font-size: 20px;
+  }
+  .bx-service__descr {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .bx-service__item {
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .bx-service__item-title {
+    font-size: 20px;
+  }
+  .bx-service__item-text {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .bx-service__item-list-item {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .bx-service__item-btn {
+    font-size: 16px;
+  }
+}
