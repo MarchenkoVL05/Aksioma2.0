@@ -30,6 +30,11 @@
   &__item-img {
     margin-top: 30px;
     max-height: 150px;
+    &--sm {
+      max-height: 150px;
+      height: 150px;
+      transform: scale(0.8) translateY(30px);
+    }
   }
   &__item-title {
     padding-bottom: 15px;

@@ -1,0 +1,39 @@
+@media (max-width: 1140px) {
+  .web-fb__info {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .web-fb-portfolio__title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 920px) {
+  .web-fb__title {
+    font-size: 28px;
+  }
+  .web-fb-portfolio__wrapper {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 544px) {
+  .web-fb__title {
+    font-size: 21px;
+  }
+  .web-fb__info {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .web-fb__btn {
+    font-size: 18px;
+  }
+  .web-fb-portfolio__title {
+    font-size: 22px;
+  }
+  .web-fb-portfolio {
+    padding: 30px 15px;
+  }
+}
