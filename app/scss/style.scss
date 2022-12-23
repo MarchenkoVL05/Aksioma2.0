@@ -975,8 +975,12 @@ a {
       background: linear-gradient(140deg, #ac73f9 0%, #7773f9 100%);
     }
     &--blue {
-      background: rgb(89, 188, 237);
+      background: #59bced;
       background: linear-gradient(161deg, #59bced 0%, #7391f9 100%);
+    }
+    &--yellow {
+      background: #dfc800;
+      background: linear-gradient(105.14deg, #dfc800, #ff9901);
     }
   }
   &__content {
@@ -1012,6 +1016,9 @@ a {
     }
     .blue {
       color: #59bced;
+    }
+    .yellow {
+      color: #ffbb01;
     }
   }
   &__subtitle {
@@ -1402,6 +1409,7 @@ a {
 @import "./school-about.scss";
 // Разработка сайтов
 @import "./web-about.scss";
+@import "./web-services.scss";
 
 // Адаптив
 // О компании
@@ -1437,3 +1445,4 @@ a {
 @import "./media/school-about-Media.scss";
 // Разработка сайтов
 @import "./media/web-about-Media.scss";
+@import "./media//web-services-Media.scss";
