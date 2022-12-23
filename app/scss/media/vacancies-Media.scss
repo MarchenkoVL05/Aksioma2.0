@@ -15,6 +15,10 @@
   .vacancies__item-btn {
     font-size: 18px;
   }
+  .vacancies__info {
+    font-size: 22px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 1010px) {
@@ -44,6 +48,12 @@
   .vacancies__item {
     width: 80%;
   }
+  .vacancies__info {
+    padding: 25px;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media (max-width: 544px) {
@@ -60,5 +70,13 @@
   }
   .vacancies__item-title a {
     font-size: 20px;
+  }
+  .vacancies__info {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .vacancies__info-btn {
+    font-size: 16px;
   }
 }

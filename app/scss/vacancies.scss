@@ -74,4 +74,29 @@
       color: #38e291;
     }
   }
+
+  &__info {
+    margin-top: 70px;
+    padding: 55px;
+    font-family: "Exo 2";
+    font-size: 28px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+    gap: 50px;
+    background: linear-gradient(180deg, rgba(56, 226, 145, 0.75) 0%, rgba(16, 155, 255, 0.75) 168.49%);
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  &__info-btn {
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 5px;
+    background-color: #343434;
+    color: #ededed;
+    border: none;
+    cursor: pointer;
+  }
 }
