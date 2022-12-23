@@ -2,6 +2,15 @@
   .web-services__sect-item {
     max-width: 560px;
   }
+  .web-services__vacancies {
+    width: 560px;
+  }
+  .web-services__vacancies-img {
+    right: 10px;
+  }
+  .web-services__vacancies-descr {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 1220px) {
@@ -15,6 +24,13 @@
   }
   .web-services__sect-item {
     max-width: 460px;
+  }
+  .web-services__vacancies {
+    width: 460px;
+    height: 300px;
+  }
+  .web-services__vacancies-btn {
+    bottom: 130px;
   }
   .web-services__sect-item-descr {
     font-size: 18px;
@@ -32,11 +48,31 @@
   .web-services__title {
     font-size: 22px;
   }
+  .web-services__vacancies {
+    width: 348px;
+    height: 380px;
+  }
+  .web-services__vacancies-img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .web-services__vacancies-btn {
+    bottom: 210px;
+  }
+  .web-services__vacancies-title {
+    font-size: 28px;
+  }
+  .web-services__vacancies-wrapper {
+    gap: 20px;
+  }
 }
 
 @media (max-width: 768px) {
   .web-services__sect-item {
     max-width: 100%;
+  }
+  .web-services__vacancies-wrapper {
+    display: none;
   }
 }
 
