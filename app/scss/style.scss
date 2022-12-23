@@ -966,6 +966,10 @@ a {
       background: #87d869;
       background: linear-gradient(212deg, #87d869, #afc763);
     }
+    &--green-vacancies {
+      background: rgb(56, 226, 145);
+      background: linear-gradient(159deg, rgba(56, 226, 145, 1) 0%, rgba(56, 201, 166, 1) 100%);
+    }
     &--orange {
       background: rgb(251, 120, 28);
       background: linear-gradient(140deg, rgba(251, 120, 28, 1) 0%, rgba(217, 172, 23, 1) 100%);
@@ -1007,6 +1011,9 @@ a {
     }
     .light-green {
       color: #87d869;
+    }
+    .green-vacancies {
+      color: #38e291;
     }
     .orange {
       color: #fb781c;
@@ -1378,6 +1385,8 @@ a {
 // Внутренние страницы
 // О компании
 @import "./about.scss";
+// Вакансии
+@import "./vacancies.scss";
 // Контакты
 @import "./contacts.scss";
 // Раздел 1С: Франчайзи
@@ -1413,9 +1422,11 @@ a {
 @import "./web-feedback.scss";
 
 // Адаптив
+@import "./media/main-Media.scss";
 // О компании
 @import "./media/about-Media.scss";
-@import "./media/main-Media.scss";
+// Вакансии
+@import "./media/vacancies-Media.scss";
 // Контакты
 @import "./media/contacts-Media.scss";
 // Раздел 1С: Франчайзи
