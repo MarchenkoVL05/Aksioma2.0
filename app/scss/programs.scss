@@ -1,0 +1,67 @@
+.programs {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-image: url(../images/Circle.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  &__inner {
+    margin-top: 50px;
+  }
+  &__items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  &__item {
+    width: 623px;
+    padding: 35px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #f0f0f7;
+    box-shadow: 0px 11px 26px rgba(93, 92, 93, 0.38);
+    border-radius: 25px;
+  }
+  &__item-img-wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 27px;
+  }
+  &__item-img {
+    max-width: 70%;
+    height: 60px;
+  }
+  &__item-version {
+    font-weight: 500;
+    font-size: 18px;
+    color: #a53dff;
+  }
+  &__item-descr {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #474464;
+  }
+  &__item-download-icon {
+    max-height: 38px;
+    position: absolute;
+    top: 27px;
+    right: 27px;
+  }
+
+  &__info {
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 500;
+    a {
+      color: rgb(0, 132, 255);
+      text-decoration: underline;
+      font-size: 22px;
+      font-weight: 500;
+    }
+  }
+}
