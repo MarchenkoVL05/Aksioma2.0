@@ -1422,6 +1422,8 @@ a {
 @import "./web-about.scss";
 @import "./web-services.scss";
 @import "./web-feedback.scss";
+// Политика обработки персональных данных
+@import "./privacy.scss";
 
 // Адаптив
 @import "./media/main-Media.scss";
@@ -1463,3 +1465,5 @@ a {
 @import "./media/web-about-Media.scss";
 @import "./media//web-services-Media.scss";
 @import "./media/web-feedback-Media.scss";
+// Политика обработки персональных данных
+@import "./media/privacy-Media.scss";
