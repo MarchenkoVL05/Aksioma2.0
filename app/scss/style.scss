@@ -275,6 +275,7 @@ a {
   padding: 0 15px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
   position: relative;
   &-nav {
@@ -361,6 +362,7 @@ a {
   }
   &-link-popup {
     display: none;
+    width: fit-content;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
@@ -377,6 +379,7 @@ a {
   }
   &-link-popup-item {
     text-align: center;
+    position: relative;
     &:hover .header__bottom-link-subpopup {
       display: flex;
     }
@@ -410,7 +413,7 @@ a {
     font-weight: 600;
     color: #000000b5;
     text-align: center;
-    word-break: break-word;
+    white-space: nowrap;
     &:hover {
       color: #d3b318;
     }
