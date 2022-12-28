@@ -299,4 +299,14 @@ window.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
+
+  // Заказать звонок Виджет Битрикс24
+  let orderCallButton = document.querySelectorAll(".open-sesame");
+  if (orderCallButton) {
+    orderCallButton.forEach((item) => {
+      item.onclick = () => {
+        document.querySelector(".b24-widget-button-callback").click();
+      };
+    });
+  }
 });
