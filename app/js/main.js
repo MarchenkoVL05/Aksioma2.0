@@ -302,10 +302,18 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // Заказать звонок Виджет Битрикс24
   let orderCallButton = document.querySelectorAll(".open-sesame");
+  let crmFormButton = document.querySelectorAll(".open-sesame-form");
   if (orderCallButton) {
     orderCallButton.forEach((item) => {
       item.onclick = () => {
-        document.querySelector(".b24-widget-button-callback").click();
+        document.querySelector(".b24-widget-button-callback span").click();
+      };
+    });
+  }
+  if (crmFormButton) {
+    crmFormButton.forEach((item) => {
+      item.onclick = () => {
+        document.querySelector(".b24-widget-button-crmform span").click();
       };
     });
   }

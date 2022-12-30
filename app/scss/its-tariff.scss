@@ -71,9 +71,11 @@
     height: 50px;
     font-size: 19px;
     color: #fff;
+    border: none;
     border-radius: 5px;
     box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
     background: linear-gradient(173deg, #dd5b5b, #cc1c1cea);
+    cursor: pointer;
   }
   &__features {
     margin-top: 50px;

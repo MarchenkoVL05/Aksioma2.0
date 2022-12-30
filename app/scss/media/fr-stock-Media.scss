@@ -12,7 +12,8 @@
     }
     &__btn {
       font-size: 18px;
-      max-width: 220px;
+      max-width: auto;
+      width: fit-content;
     }
     &__text {
       font-size: 18px;
@@ -30,7 +31,7 @@
     }
     &__list-item {
       font-size: 18px;
-      line-height: 24px;
+      line-height: 25px;
     }
   }
 }
@@ -51,7 +52,7 @@
     }
     &__descr {
       font-size: 16px;
-      line-height: 21px;
+      line-height: 25px;
     }
     &__btn {
       font-size: 16px;
@@ -59,7 +60,7 @@
     }
     &__text {
       font-size: 16px;
-      line-height: 21px;
+      line-height: 25px;
       margin-top: 10px;
       &--bold {
         font-size: 20px;
@@ -73,7 +74,6 @@
     }
     &__list-item {
       font-size: 16px;
-      line-height: 21px;
     }
   }
 }
