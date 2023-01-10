@@ -22,13 +22,22 @@
                     <button class="header__top-search"><img src="./images/search.png" alt="Поиск"></button>
                 </div>
                 <div class="header__top-right">
-                    <a class="header__top-link" href="#"><img src="./images/cart.png" alt="Корзина"></a>
-                    <a class="header__top-link header__top-link--profile" href="#">Владимир Марченко<img
-                            src="./images/user.png" alt=""></a>
+                    <!-- <a class="header__top-link" href="#"><img src="./images/cart.png" alt="Корзина"></a> -->
+                    <a class="header__top-link header__top-link--profile" href="#">Авторизация</a>
                     <div class="header__top-panel">
-                        <img src="./images/user.png" alt="">
-                        <a href="#">Перейти в профиль</a>
-                        <button class="header__top-panel-btn">Выйти</button>
+                        <form class="auth-form" action="" method="post">
+                            <label class="auth-form__label">Логин: </label>
+                            <input class="auth-form__input" name="email" type="text" placeholder="Почта...">
+                            <label class="auth-form__label">Пароль: </label>
+                            <input class="auth-form__input" name="passord" type="text">
+                            <div class="remember-me">
+                                <input type="checkbox">
+                                <label class="remember-me__label">Запомнить меня</label>
+                            </div>
+                            <input class="header__top-panel-btn" type="submit" value="Войти"></input>
+                            <a href="#">Регистрация</a>
+                            <a href="#">Забыли пароль?</a>
+                        </form>
                     </div>
                 </div>
             </div>

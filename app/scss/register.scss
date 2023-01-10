@@ -1,0 +1,57 @@
+.register {
+  max-width: 1400px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #323232;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ededed;
+  }
+  &__inner {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__label {
+    font-size: 22px;
+    font-weight: 500;
+    width: 300px;
+  }
+  &__input {
+    width: 500px;
+    padding: 0 15px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    box-shadow: #0000003d 0px 3px 8px;
+    transition: 0.2s all;
+    &:focus {
+      outline: none;
+      box-shadow: #c2ac0a3d 0px 3px 8px;
+    }
+  }
+  &__submit {
+    margin-top: 40px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: #323232;
+    border-radius: 3px;
+    background: #ffe176;
+    background: linear-gradient(85deg, #ffe176, #ffbd5f);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+  }
+  &__info-wrapper {
+    margin-top: 30px;
+  }
+  &__info {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

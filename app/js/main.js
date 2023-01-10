@@ -110,16 +110,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
   if (headerOpenProfile && headerProfileMenu) {
     headerOpenProfile.addEventListener("click", () => {
-      headerProfileMenu.style.display = "flex";
+      headerProfileMenu.classList.toggle("profile-panel--show");
       setTimeout(() => {
-        headerProfileMenu.style.opacity = "1";
-      }, 50);
-      setTimeout(() => {
-        headerProfileMenu.style.opacity = "0";
-        setTimeout(() => {
-          headerProfileMenu.style.display = "none";
-        }, 500);
-      }, 6000);
+        headerProfileMenu.classList.remove("profile-panel--show");
+      }, 20000);
     });
   }
 

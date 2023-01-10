@@ -1,0 +1,50 @@
+@media (max-width: 920px) {
+  .register {
+    &__title {
+      font-size: 28px;
+    }
+    &__input {
+      width: 400px;
+      height: 40px;
+    }
+    &__label {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .register {
+    &__input {
+      width: 300px;
+      height: 35px;
+    }
+    &__submit {
+      margin-top: 30px;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 544px) {
+  .register {
+    &__title {
+      font-size: 24px;
+    }
+    &__inner {
+      margin-top: 15px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    &__label {
+      width: 280px;
+    }
+    &__input {
+      width: 280px;
+    }
+    &__submit {
+      font-size: 18px;
+    }
+  }
+}

@@ -22,13 +22,22 @@
                     <button class="header__top-search"><img src="./images/search.png" alt="Поиск"></button>
                 </div>
                 <div class="header__top-right">
-                    <a class="header__top-link" href="#"><img src="./images/cart.png" alt="Корзина"></a>
-                    <a class="header__top-link header__top-link--profile" href="#">Владимир Марченко<img
-                            src="./images/user.png" alt=""></a>
+                    <!-- <a class="header__top-link" href="#"><img src="./images/cart.png" alt="Корзина"></a> -->
+                    <a class="header__top-link header__top-link--profile" href="#">Авторизация</a>
                     <div class="header__top-panel">
-                        <img src="./images/user.png" alt="">
-                        <a href="#">Перейти в профиль</a>
-                        <button class="header__top-panel-btn">Выйти</button>
+                        <form class="auth-form" action="" method="post">
+                            <label class="auth-form__label">Логин: </label>
+                            <input class="auth-form__input" name="email" type="text" placeholder="Почта...">
+                            <label class="auth-form__label">Пароль: </label>
+                            <input class="auth-form__input" name="passord" type="text">
+                            <div class="remember-me">
+                                <input type="checkbox">
+                                <label class="remember-me__label">Запомнить меня</label>
+                            </div>
+                            <input class="header__top-panel-btn" type="submit" value="Войти"></input>
+                            <a href="#">Регистрация</a>
+                            <a href="#">Забыли пароль?</a>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -267,172 +276,48 @@
     </div>
 
     <main class="content">
-        <div class="web-services">
-            <div class="breadcrumbs">
-                <ul class="breadcrumbs__list">
-                    <li class="breadcrumbs__list-item"><a href="./index.html">Главная</a></li>
-                    <li class="breadcrumbs__list-item"><a href="./web-about.html">Создание сайтов</a></li>
-                    <li class="breadcrumbs__list-item"><a href="#">Услуги</a></li>
-                </ul>
-            </div>
-            <div class="web-services__inner">
-                <h1 class="web-services__title fadeInLeft fade--immediately">В зависимости от особенностей вашего
-                    бизнеса и поставленных целей мы
-                    можем разработать как одностраничный сайт, так и интернет-магазин
-                </h1>
-                <h2 class="web-services__subtitle fadeInLeft fade--immediately">У нас есть специалисты в сфере веб
-                    разработки, которые готовы
-                    реализовать все ваши идеи, так что можете полностью нам довериться
-                </h2>
-                <div class="web-services__sect fadeInLeft fade--immediately">
-                    <h4 class="web-services__sect-title">Дизайн</h4>
-                    <div class="web-services__sect-wrapper">
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-1.png" alt="">
-                            <div class="web-services__sect-item-title">Графический дизайнер</div>
-                            <div class="web-services__sect-item-descr">
-                                графическое оформление дизайна сайтов и разработка новых страниц</div>
-                        </div>
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-2.png" alt="">
-                            <div class="web-services__sect-item-title">UI Дизайнер</div>
-                            <div class="web-services__sect-item-descr">
-                                Создание интерфейсов для сайтов, интернет-магазинов и мобильных приложений</div>
-                        </div>
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-3.png" alt="">
-                            <div class="web-services__sect-item-title">Иллюстратор</div>
-                            <div class="web-services__sect-item-descr">
-                                создание фото и видео-инфографики и анимаций для рекламы контента</div>
-                        </div>
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-4.png" alt="">
-                            <div class="web-services__sect-item-title">Проектировщик</div>
-                            <div class="web-services__sect-item-descr">
-                                проводит все этапы: от анализа и разработки концепции до продвижения и дальнейшего
-                                развития</div>
-                        </div>
-                    </div>
+        <div class="register">
+            <form class="register__form" action="post">
+                <h1 class="register__title">Регистрация</h1>
+                <div class="register__inner">
+                    <label class="register__label">Логин (мин. 3 символа):*</label>
+                    <input class="register__input" type="text">
                 </div>
-                <!-- Вакансии -->
-                <div class="web-services__vacancies-wrapper">
-                    <div class="web-services__vacancies fadeInTop">
-                        <div class="web-services__vacancies-content">
-                            <div class="web-services__vacancies-title">Вакансии</div>
-                            <div class="web-services__vacancies-descr">Присоединяйтесь в нашу команду!</div>
-                            <a class="web-services__vacancies-btn" href="./vacancies.html">Перейти в раздел</a>
-                        </div>
-                        <img class="web-services__vacancies-img" src="./images/vacancies-people-stock.png" alt="">
-                    </div>
-                    <div class="web-services__vacancies fadeInTop">
-                        <div class="web-services__vacancies-content">
-                            <div class="web-services__vacancies-title">О направлении</div>
-                            <div class="web-services__vacancies-descr">Узнать больше</div>
-                            <a class="web-services__vacancies-btn" href="./web-about.html">Перейти в раздел</a>
-                        </div>
-                        <img class="web-services__vacancies-img" src="./images/laptop.png" alt="">
-                    </div>
+                <div class="register__inner">
+                    <label class="register__label">Email:*</label>
+                    <input class="register__input" type="text">
                 </div>
-                <!--  -->
-                <div class="web-services__sect fadeInLeft">
-                    <h4 class="web-services__sect-title">Разработка</h4>
-                    <div class="web-services__sect-wrapper">
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-5.png" alt="">
-                            <div class="web-services__sect-item-title">Front-end разработчик</div>
-                            <div class="web-services__sect-item-descr">
-                                внутренняя оптимизация интернет-ресурса, доработка, модификация и наполнение контентом
-                            </div>
-                        </div>
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-6.png" alt="">
-                            <div class="web-services__sect-item-title">back-end разработчик</div>
-                            <div class="web-services__sect-item-descr">
-                                реализация логики работы сайта на стороне сервера и создание удобного интерфейса </div>
-                        </div>
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-7.png" alt="">
-                            <div class="web-services__sect-item-title">системный администратор</div>
-                            <div class="web-services__sect-item-descr">
-                                администрирование сайтов, продвижение сайтов и модернизация сайтов</div>
-                        </div>
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-9.png" alt="">
-                            <div class="web-services__sect-item-title">Тестировщик</div>
-                            <div class="web-services__sect-item-descr">
-                                тестирование функциональности и производительности сайта, технической состовляющей сайта
-                                и seo</div>
-                        </div>
-                    </div>
+                <div class="register__inner">
+                    <label class="register__label">Пароль:*</label>
+                    <input class="register__input" type="text">
                 </div>
-                <!--  -->
-                <div class="web-services__sect fadeInLeft">
-                    <h4 class="web-services__sect-title">маркетинг</h4>
-                    <div class="web-services__sect-wrapper">
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-10.png" alt="">
-                            <div class="web-services__sect-item-title">маркетолог</div>
-                            <div class="web-services__sect-item-descr">
-                                продвижение сайтов, аналитика и сбор статистических данных
-                            </div>
-                        </div>
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-11.png" alt="">
-                            <div class="web-services__sect-item-title">копирайтер</div>
-                            <div class="web-services__sect-item-descr">
-                                написание текстов для наполнения сайтов, блогов и форумов</div>
-                        </div>
-                    </div>
+                <div class="register__inner">
+                    <label class="register__label">Подтверждение пароля:*</label>
+                    <input class="register__input" type="text">
                 </div>
-                <!--  -->
-                <div class="web-services__sect fadeInLeft">
-                    <h4 class="web-services__sect-title">клиентский сервис</h4>
-                    <div class="web-services__sect-wrapper">
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-12.png" alt="">
-                            <div class="web-services__sect-item-title">аккаунт-менеджер</div>
-                            <div class="web-services__sect-item-descr">
-                                продвижение, оптимизация и аналитика в поисковой выдаче, управление репутацией в
-                                интернете
-                            </div>
-                        </div>
-                        <div class="web-services__sect-item">
-                            <img class="web-services__sect-item-img" src="./images/ws-13.png" alt="">
-                            <div class="web-services__sect-item-title">руководитель проектов</div>
-                            <div class="web-services__sect-item-descr">
-                                консультирование клиентов, поиск интересных и актуальных веб-решений, подходящих клиенту
-                            </div>
-                        </div>
-                    </div>
+                <div class="register__inner">
+                    <label class="register__label">Имя:</label>
+                    <input class="register__input" type="text">
                 </div>
-            </div>
+                <div class="register__inner">
+                    <label class="register__label">Отчество:</label>
+                    <input class="register__input" type="text">
+                </div>
+                <div class="register__inner">
+                    <label class="register__label">Фамилия:</label>
+                    <input class="register__input" type="text">
+                </div>
+                <div class="register__inner">
+                    <label class="register__label">Телефон:</label>
+                    <input class="register__input" type="text">
+                </div>
+                <div class="register__info-wrapper">
+                    <p class="register__info">Пароль должен быть не менее 6 символов длиной.</p>
+                    <p class="register__info">* - Поля, обязательные для заполнения.</p>
+                </div>
+                <input class="register__submit" type="submit" value="Регистрация">
+            </form>
         </div>
-
-        <section class="request fadeInTop">
-            <div class="request__inner">
-                <form class="request__form" action="send.php">
-                    <label class="request__label" for="name">Имя</label>
-                    <input class="request__input" type="text" id="name" name="name" placeholder="Как к Вам обращатсья?"
-                        required>
-                    <label class="request__label" for="email">Почта</label>
-                    <input class="request__input" type="text" id="email" name="email" placeholder="email" required>
-                    <label class="request__label" for="message">Чем мы можем вам помочь?</label>
-                    <input class="request__input" type="text" id="message" name="message" placeholder="Мне нужно..."
-                        required>
-                    <div class="request__warning">Защита от спама reCAPTCHA <a href="#">Конфиденциальность</a> и <a
-                            href="#">Условия использования</a>
-                    </div>
-                    <button class="request__btn request__btn--yellow">Оставить заявку</button>
-                </form>
-                <div class="request__content">
-                    <img class="request__content-img" src="./images/form-bg.png" alt="">
-                    <div class="request__content-inner">
-                        <h2 class="request__title"><span class="yellow">Просто</span> оставьте заявку</h2>
-                        <h3 class="request__subtitle">и наши специалисты свяжутся с вами для консультации</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer class="footer">
@@ -493,7 +378,6 @@
             </div>
         </div>
     </footer>
-
     <script src="./js/main.js"></script>
 </body>
 

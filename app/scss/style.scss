@@ -98,9 +98,9 @@ a {
     gap: 18px;
   }
   &__top-right {
+    position: relative;
     display: flex;
     gap: 12px;
-    display: none;
   }
   &__top-left {
     display: flex;
@@ -159,6 +159,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
     img {
       height: 30px;
     }
@@ -180,9 +183,9 @@ a {
   &__top-panel {
     display: none;
     opacity: 0;
-    width: 190px;
-    height: 190px;
-    padding: 15px 20px;
+    width: 290px;
+    height: auto;
+    padding: 20px 15px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -192,7 +195,8 @@ a {
     border: 1px solid rgb(238, 238, 238);
     box-shadow: 0 0 8px #0000001a;
     position: absolute;
-    bottom: -190px;
+    top: 30px;
+    right: 10px;
     transition: 0.4s all;
     z-index: 2;
     img {
@@ -200,9 +204,8 @@ a {
       border-radius: 100%;
     }
     a {
-      margin-top: 10px;
-      text-decoration: underline;
-      font-size: 14px;
+      margin-top: 15px;
+      font-size: 16px;
       font-weight: 500;
     }
   }
@@ -264,6 +267,46 @@ a {
       align-items: center;
       justify-content: flex-end;
       gap: 8px;
+    }
+  }
+}
+
+.profile-panel--show {
+  display: flex;
+  top: 30px;
+  opacity: 1;
+}
+
+.auth-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  &__label {
+    font-family: "Exo 2";
+    &:not(:first-child) {
+      margin-top: 15px;
+    }
+  }
+  &__input {
+    height: 35px;
+    margin-top: 8px;
+    padding: 0 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    &:focus {
+      outline: none;
+      font-size: 18px;
+    }
+  }
+
+  .remember-me {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    &__label {
+      font-size: 16px;
     }
   }
 }
@@ -1431,6 +1474,8 @@ a {
 @import "./privacy.scss";
 // Каталог
 @import "./catalog.scss";
+// Регистрация
+@import "./register.scss";
 
 // Адаптив
 @import "./media/main-Media.scss";
@@ -1476,3 +1521,5 @@ a {
 @import "./media/privacy-Media.scss";
 // Каталог
 @import "./media/catalog-Media.scss";
+// Регистрация
+@import "./media/register-Media.scss";

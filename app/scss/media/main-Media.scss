@@ -253,6 +253,12 @@
   }
 }
 
+@media (max-width: 620px) {
+  .breadcrumbs {
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
   .header {
     &__top-left {
@@ -261,9 +267,6 @@
     &__top-inner {
       justify-content: flex-end;
     }
-  }
-  .breadcrumbs {
-    display: none;
   }
   .services {
     &__subtitle {
@@ -427,5 +430,9 @@
     &__text {
       line-height: 20px;
     }
+  }
+
+  .header__top-panel {
+    right: 0;
   }
 }
